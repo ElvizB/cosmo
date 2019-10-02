@@ -6,8 +6,10 @@
 //define('NOMBRE_BD', 'andean');
 
 //rutas de la web
+//https://cossmo.herokuapp.com/
+//http://localhost/cosmo
 
-define("SERVIDOR", "http://localhost/cosmo");
+define("SERVIDOR", "https://cossmo.herokuapp.com/");
 //define("RUTA_NOSOTROS", SERVIDOR."/Nosotros");
 //define("RUTA_PADULTO", SERVIDOR."/programas-de-adultos");
 //define("RUTA_CATEGORIA", SERVIDOR."/categoria-2007");
