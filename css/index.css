@@ -1,0 +1,65 @@
+.list-style {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+html,
+body {
+  height: 100%;
+}
+.navbar {
+  background-color: #0e2449 !important;
+}
+
+.top-nav-collapse {
+  background-color: #0e2449 !important;
+}
+
+.text-yellow {
+  color: #fbc411;
+}
+
+.btn-empezar {
+  background: #fbc411 !important;
+}
+
+.text-small {
+  font-size: 14px;
+}
+.text-color-abaut {
+  color: #275192;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar {
+    background: #0e2449 !important;
+  }
+}
+
+.scrolling-navbar {
+  -webkit-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+  -moz-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+  transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+}
+
+/* Carousel*/
+
+.carousel {
+  height: 100%;
+}
+
+@media (max-width: 776px) {
+  .carousel {
+    height: 100%;
+  }
+}
+
+.carousel-item,
+.active {
+  height: 100%;
+}
+
+.carousel-inner {
+  height: 100%;
+}
