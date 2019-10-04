@@ -64,18 +64,20 @@ include_once 'plantillas/documento-declaracion.inc.php';
             <div class="flex-center slider-title">
                 <ul class="list-style">
                     <li>
-                        <h1 class="display-4 text-yellow font-weight-500 data-title animated fadeInDown delay-1s">
+                        <h1
+                            class="display-4 text-yellow font-weight-500 data-title animated fadeInDown delay-1s font-cLight">
                             REVOLUCIONA<br>
                             TUS PROYECTOS
                         </h1>
                     </li>
                     <li>
-                        <p class="h3-responsive data-sutitile font-weight-normal animated fadeInUp delay-2s text-white">
+                        <p
+                            class="h3-responsive data-sutitile font-weight-normal animated fadeInUp delay-2s text-white font-cLight">
                             Solicite el
                             plan más adecuado para su empresa.</p>
                     </li>
                     <li class="pt-md-0 pt-5">
-                        <a href="#" class="btn btn-info animated zoomIn btn-empezar delay-3s " rel="nofollow">EMPIEZA
+                        <a href="#" class="btn btn-info animated zoomIn btn-empezar delay-3s font-cSemiBold" rel="nofollow">EMPIEZA
                             YA</a>
                     </li>
                 </ul>
