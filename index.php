@@ -1,7 +1,9 @@
 <?php
 
 //$componentes_url = parse_url($_SERVER['REQUEST_URI']);
+
 $componentes_url = parse_url($_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI']);
+
 
 $ruta = $componentes_url['path'];
 

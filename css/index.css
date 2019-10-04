@@ -1,3 +1,36 @@
+@font-face {
+  font-family: "Ciutadella Bold";
+  src: url("../fonts/CiutadellaBold.otf");
+}
+
+@font-face {
+  font-family: "Ciutadella Light";
+  src: url("../fonts/CiutadellaLight.otf");
+}
+@font-face {
+  font-family: "Ciutadella Regular";
+  src: url("../fonts/CiutadellaRegular.otf");
+}
+@font-face {
+  font-family: "Ciutadella SemiBold";
+  src: url("../fonts/CiutadellaSemiBold.otf");
+}
+
+.font-cBol {
+  font-family: "Ciutadella Bold";
+}
+
+.font-cLight {
+  font-family: "Ciutadella Light";
+}
+
+.font-cRegular {
+  font-family: "Ciutadella Regular";
+}
+.font-cSemiBold {
+  font-family: "Ciutadella SemiBold";
+}
+
 .list-style {
   list-style: none;
   padding: 0;
@@ -28,7 +61,7 @@ body {
   font-size: 14px;
 }
 .text-color-abaut {
-  color: #275192;
+  color: #275192 !important;
 }
 
 @media only screen and (max-width: 768px) {
@@ -41,6 +74,60 @@ body {
   -webkit-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
   -moz-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
   transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+}
+
+.proyecto {
+  background: url(../img/proyectos/reel.png) no-repeat top;
+  background-size: 100% 100%;
+  padding-bottom: 6rem;
+  padding-top: 6rem;
+}
+.bg-proyecto {
+  background: #fbc411;
+}
+
+.bg-footer {
+  background: #275192 !important;
+}
+.form-control {
+  background-color: #3d629d !important;
+  border: 1px solid #3d629d !important;
+}
+
+input::placeholder {
+  color: white !important;
+  font-family: "Ciutadella Light";
+}
+textarea::placeholder {
+  color: white !important;
+  font-family: "Ciutadella Light";
+}
+
+.btn-enviar {
+  background: transparent !important;
+  color: #fbc411 !important;
+  border-radius: 10px;
+  border: 2px solid #fbc411 !important;
+}
+
+.border-footer {
+  border-top: 1px solid #3d629d !important;
+}
+
+.border-form {
+  border-right: 1px solid #3d629d;
+  padding-right: 50px;
+}
+
+.btn-ver-video {
+  background: transparent !important;
+  color: white !important;
+  border-radius: 10px;
+  border: 2px solid white !important;
+}
+
+.text-reel {
+  color: #00fe00;
 }
 
 /* Carousel*/
@@ -62,4 +149,76 @@ body {
 
 .carousel-inner {
   height: 100%;
+}
+.pl-7 {
+  padding-left: 7rem !important;
+}
+
+.title h2:after {
+  content: "";
+  background: #fbc411;
+  height: 3px;
+  width: 100px;
+  position: absolute;
+  left: 50%;
+  margin-left: -50px;
+  display: flex;
+  margin-top: 12px;
+}
+.title-contacto h2:after {
+  content: "";
+  background: #fbc411;
+  height: 3px;
+  width: 90px;
+  position: absolute;
+  left: 3%;
+  margin-left: 0px;
+  display: flex;
+  margin-top: 8px;
+}
+.title-proyecto h2:after {
+  content: "";
+  background: #275192;
+  height: 3px;
+  width: 90px;
+  position: absolute;
+  left: 23%;
+  margin-left: 0px;
+  display: flex;
+  margin-top: 6px;
+}
+@media (max-width: 767px) {
+  .border-form {
+    padding-right: 0;
+    border-right: none;
+  }
+  .data-title {
+    font-size: 2.5rem;
+  }
+  .title-contacto h2:after {
+    left: 36%;
+  }
+  .pl-7 {
+    padding-left: 1rem !important;
+  }
+  .ver-video {
+    padding-bottom: 5%;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .pl-7 {
+    padding-left: 2rem !important;
+  }
+  .title-proyecto2 > h2 {
+    text-align: center !important;
+  }
+  .ver-video {
+    text-align: center !important;
+    padding-bottom: 5%;
+  }
+  .border-form {
+    padding-right: 0;
+    border-right: none;
+  }
 }
