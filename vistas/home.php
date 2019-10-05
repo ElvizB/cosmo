@@ -25,21 +25,21 @@ include_once 'plantillas/documento-declaracion.inc.php';
                 <!-- Links -->
                 <ul class="navbar-nav ml-auto nav-bar" id="botones">
                     <li class="nav-item">
-                        <a href="#home" class="smoothScroll nav-link font-weight-normal mx-3 inicio">Inicio
+                        <a href="#home" class="font-cRegular nav-link mx-3">Inicio
                             <span class=" sr-only">(current)</span>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="#somos" class=" nav-link font-weight-normal mx-3 ">Nosotros</a>
+                        <a href="#somos" class=" nav-link font-cRegular mx-3 ">Nosotros</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#servicios" class=" nav-link font-weight-normal mx-3 ">Servicios</a>
+                        <a href="#servicios" class=" nav-link font-cRegular mx-3 ">Servicios</a>
                     </li>
                     <li class=" nav-item">
-                        <a href="#proyectos" class=" nav-link font-weight-normal mx-3 ">Proyectos</a>
+                        <a href="#proyectos" class=" nav-link font-cRegular mx-3 ">Proyectos</a>
                     </li>
                     <li class=" nav-item">
-                        <a href="#contacto" class=" nav-link font-weight-normal mx-3 ">Contacto</a>
+                        <a href="#contacto" class=" nav-link font-cRegular mx-3 ">Contacto</a>
                     </li>
                 </ul>
                 <!-- Links -->
