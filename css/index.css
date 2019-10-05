@@ -52,6 +52,7 @@
   border-radius: 50%;
   border: #fbc411;
   color: white;
+  z-index: 999999;
 }
 
 .list-style {
