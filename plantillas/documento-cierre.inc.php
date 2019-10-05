@@ -10,6 +10,8 @@
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.8/js/mdb.min.js">
 </script>
 <script type="text/javascript" src="<?php echo RUTA_JS?>loading.js"></script>
+<script type="text/javascript" src="<?php echo RUTA_JS?>smoothscroll.js"></script>
+<script type="text/javascript" src="<?php echo RUTA_JS?>smooth.js"></script>
 <script type="text/javascript">
 new WOW().init();
 </script>

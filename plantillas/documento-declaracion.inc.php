@@ -19,7 +19,7 @@
 
     <link href="<?php echo RUTA_CSS?>preload/index.css" rel="stylesheet">
     <link href="<?php echo RUTA_CSS?>index.css" rel="stylesheet">
-
+    <link href="<?php echo RUTA_CSS?>timeline/index.css" rel="stylesheet">
 
 </head>
 
