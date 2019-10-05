@@ -1,6 +1,6 @@
 /*==== Smoothscroll ====*/
 
-$("#home a, .custom-navbar a").on("click", function(event) {
+$(".nav-bar a").on("click", function(event) {
   var $anchor = $(this);
   $("html, body")
     .stop()

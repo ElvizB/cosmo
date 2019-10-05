@@ -23,23 +23,23 @@ include_once 'plantillas/documento-declaracion.inc.php';
             <!-- Collapsible content -->
             <div class="collapse navbar-collapse" id="basicExampleNav">
                 <!-- Links -->
-                <ul class="navbar-nav ml-auto" id="botones">
+                <ul class="navbar-nav ml-auto nav-bar" id="botones">
                     <li class="nav-item">
                         <a href="#home" class="smoothScroll nav-link font-weight-normal mx-3 inicio">Inicio
                             <span class=" sr-only">(current)</span>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="#somos" class="smoothScroll nav-link font-weight-normal mx-3 ">Nosotros</a>
+                        <a href="#somos" class=" nav-link font-weight-normal mx-3 ">Nosotros</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#servicios" class="smoothScroll nav-link font-weight-normal mx-3 ">Servicios</a>
+                        <a href="#servicios" class=" nav-link font-weight-normal mx-3 ">Servicios</a>
                     </li>
                     <li class=" nav-item">
-                        <a href="#proyectos" class="smoothScroll nav-link font-weight-normal mx-3 ">Proyectos</a>
+                        <a href="#proyectos" class=" nav-link font-weight-normal mx-3 ">Proyectos</a>
                     </li>
                     <li class=" nav-item">
-                        <a href="#contacto" class="smoothScroll nav-link font-weight-normal mx-3 ">Contacto</a>
+                        <a href="#contacto" class=" nav-link font-weight-normal mx-3 ">Contacto</a>
                     </li>
                 </ul>
                 <!-- Links -->
@@ -50,7 +50,7 @@ include_once 'plantillas/documento-declaracion.inc.php';
 </header>
 <!--/.Navbar-->
 
-<div id="home carousel-example-3" class="carousel slide carousel-fade" data-ride="carousel">
+<div id="home" class="carousel slide carousel-fade" data-ride="carousel">
 
     <div class="carousel-inner " role="listbox">
         <!-- First slide -->
@@ -72,11 +72,18 @@ include_once 'plantillas/documento-declaracion.inc.php';
                             Solicite el
                             plan más adecuado para su empresa.</p>
                     </li>
-                    <li class="pt-md-0 pt-5">
-                        <a href="#" class="btn btn-info animated zoomIn btn-empezar delay-3s font-cSemiBold"
-                            rel="nofollow">EMPIEZA YA</a>
+                    <li class="pt-md-0 pt-5 nav-bar">
+                        <a href="#somos"
+                            class="btn btn-info animated zoomIn btn-empezar delay-3s font-cSemiBold rounded">EMPIEZA
+                            YA</a>
                     </li>
+
                 </ul>
+                <div class="flecha-down nav-bar">
+                    <a href="#somos" class="">
+                        <img class="img-fluid animated pulse infinite" src="img/down.png" alt="line">
+                    </a>
+                </div>
             </div>
         </div>
         <!--/.First slide-->
@@ -201,10 +208,15 @@ include_once 'plantillas/documento-declaracion.inc.php';
                             <h2
                                 class="h2-responsive bottom-reset text-center text-md-left text-color-abaut font-cSemiBold">
                                 VÍDEOS EXPLICATIVOS</h2>
-                            <div class="mb-2"><img class="img-fluid" src="img/servicios/line_s.png" alt="line"></div>
-                            <p class="text-justify bottom-reset font-cLight">Presentamos contenidos informativos e </p>
-                            <p class="text-justify bottom-reset font-cLight">inductivos de manera dinámica y ordenada.
-                            </p>
+                            <div class="mb-2 text-center text-md-left"><img class="img-fluid"
+                                    src="img/servicios/line_s.png" alt="line"></div>
+                            <div class="text-center text-md-left">
+                                <p class="bottom-reset font-cLight">Presentamos contenidos informativos e
+                                </p>
+                                <p class="bottom-reset font-cLight">inductivos de manera dinámica y
+                                    ordenada.
+                                </p>
+                            </div>
 
                         </div>
                     </div> <!-- cd-timeline__content z-depth-2-->
@@ -222,11 +234,14 @@ include_once 'plantillas/documento-declaracion.inc.php';
                             <h2 class=" h2-responsive bottom-reset text-center text-md-left text-color-abaut
                         font-cSemiBold">
                                 E-LEARNING</h2>
-                            <div class="mb-2 text-left"><img class="img-fluid" src="img/servicios/line_s.png"
-                                    alt="line">
+                            <div class="mb-2 text-center text-md-left"><img class="img-fluid"
+                                    src="img/servicios/line_s.png" alt="line">
                             </div>
-                            <p class="text-justify bottom-reset font-cLight">Creamos cursos virtuales como </p>
-                            <p class="text-justify bottom-reset font-cLight">herramientas de capacitación efectiva.</p>
+                            <div class="text-center text-md-left">
+                                <p class="bottom-reset font-cLight">Creamos cursos virtuales como </p>
+                                <p class="bottom-reset font-cLight">herramientas de capacitación efectiva.
+                                </p>
+                            </div>
 
                         </div>
                     </div> <!-- cd-timeline__content -->
@@ -244,14 +259,15 @@ include_once 'plantillas/documento-declaracion.inc.php';
                             <h2
                                 class="h2-responsive bottom-reset text-center text-md-left text-color-abaut font-cSemiBold">
                                 DISEÑO Y COMUNICACIÓN GRÁFICA</h2>
-                            <div class="mb-2 text-left"><img class="img-fluid" src="img/servicios/line_s.png"
-                                    alt="line">
+                            <div class="mb-2 text-center text-md-left"><img class="img-fluid"
+                                    src="img/servicios/line_s.png" alt="line">
                             </div>
-                            <p class="text-justify bottom-reset font-cLight">Creamos y diseñamos presentaciones</p>
-                            <p class="text-justify bottom-reset font-cLight">guías gráficas e infografías de alto
-                                impacto.
-                            </p>
-
+                            <div class="text-center text-md-left">
+                                <p class="bottom-reset font-cLight">Creamos y diseñamos presentaciones</p>
+                                <p class="bottom-reset font-cLight">guías gráficas e infografías de alto
+                                    impacto.
+                                </p>
+                            </div>
                         </div>
                     </div> <!-- cd-timeline__content -->
                 </div> <!-- cd-timeline__block -->
@@ -268,11 +284,13 @@ include_once 'plantillas/documento-declaracion.inc.php';
                             <h2
                                 class="h2-responsive bottom-reset text-center text-md-left text-color-abaut font-cSemiBold">
                                 HERRAMIENTAS WEB</h2>
-                            <div class="mb-2 text-left"><img class="img-fluid" src="img/servicios/line_s.png"
-                                    alt="line">
+                            <div class="mb-2 text-center text-md-left"><img class="img-fluid"
+                                    src="img/servicios/line_s.png" alt="line">
                             </div>
-                            <p class="text-justify bottom-reset font-cLight">Implementamos herramientas web y </p>
-                            <p class="text-justify bottom-reset font-cLight">plataformas digitales.</p>
+                            <div class="text-center text-md-left">
+                                <p class="bottom-reset font-cLight">Implementamos herramientas web y </p>
+                                <p class="bottom-reset font-cLight">plataformas digitales.</p>
+                            </div>
 
                         </div>
                     </div> <!-- cd-timeline__content -->
@@ -334,10 +352,46 @@ include_once 'plantillas/documento-declaracion.inc.php';
                                 ea commodo</p>
                             <!-- Post data -->
                             <div class="text-center text-sm-left ver-video wow fadeInUp" data-wow-delay="0.3s">
-                                <a href="#"
-                                    class="btn btn-info btn-ver-video font-cSemiBold animated zoomIn waves-effect waves-light"
-                                    rel="nofollow">VER VIDEO
-                                </a>
+                                <!-- Button trigger modal-->
+                                <button type="button"
+                                    class="btn btn-primary btn-ver-video font-cSemiBold animated zoomIn"
+                                    data-toggle="modal" data-target="#modalYT"><i class="fas fa-play pr-2"></i>VER
+                                    VIDEO
+                                </button>
+
+                                <!--Modal: modalYT-->
+                                <div class="modal fade" id="modalYT" tabindex="-1" role="dialog"
+                                    aria-labelledby="myModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-lg" role="document">
+
+                                        <!--Content-->
+                                        <div class="modal-content">
+
+                                            <!--Body-->
+                                            <div class="modal-body mb-0 p-0">
+
+                                                <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+                                                    <iframe class="embed-responsive-item"
+                                                        src="https://player.vimeo.com/video/115098447"
+                                                        allowfullscreen></iframe>
+                                                </div>
+
+                                            </div>
+
+                                            <!--Footer-->
+                                            <div class="modal-footer justify-content-center flex-column flex-md-row">
+                                                <button type="button"
+                                                    class="btn btn-outline-primary btn-rounded btn-md ml-4"
+                                                    data-dismiss="modal">Close</button>
+                                            </div>
+
+                                        </div>
+                                        <!--/.Content-->
+
+                                    </div>
+                                </div>
+                                <!--Modal: modalYT-->
+
                             </div>
                         </div>
                         <!-- Grid column -->
@@ -426,7 +480,7 @@ include_once 'plantillas/documento-declaracion.inc.php';
         <div class="row">
 
             <!-- Grid column -->
-            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="col-lg-6 wow fadeIn" data-wow-delay="0.2s">
                 <div class="pt-3"></div>
                 <h2 class="h2-responsive text-white text-center text-md-left pt-5 font-cBol bottom-reset">
                     CONTACTO
@@ -458,8 +512,10 @@ include_once 'plantillas/documento-declaracion.inc.php';
                             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
                                 placeholder="Comentario"></textarea>
                         </div>
-                        <button type="submit" class="btn btn-primary btn-enviar font-cSemiBold"><i
-                                class="far fa-paper-plane pr-3"></i>ENVIAR</button>
+                        <div class="text-center text-md-left btn-content">
+                            <button type="submit" class="btn btn-primary btn-enviar font-cSemiBold"><i
+                                    class="far fa-paper-plane pr-3"></i>ENVIAR</button>
+                        </div>
                     </form>
                 </div>
 
@@ -467,7 +523,7 @@ include_once 'plantillas/documento-declaracion.inc.php';
             <!-- Grid column -->
 
             <!-- Grid column -->
-            <div class="col-lg-6 pl-0 pl-sm-5 wow fadeInUp" data-wow-delay="0.4s">
+            <div class="col-lg-6 pl-0 pl-sm-5 wow fadeIn" data-wow-delay="0.4s">
                 <div class="pt-5"></div>
                 <div class="pb-3 mb-lg-0 mb-4 pt-5 text-center text-sm-left">
                     <img class="img-fluid" src="img/contacto/cosmo.png" alt="cosmo">
@@ -528,6 +584,12 @@ include_once 'plantillas/documento-declaracion.inc.php';
     <!-- Copyright -->
 
 </footer>
+
+<div>
+    <button id="topbtn" class="waves-effect waves-light z-depth-2"><i class="fas fa-chevron-up fa-2x"></i></button>
+</div>
+
+
 
 
 <?php
