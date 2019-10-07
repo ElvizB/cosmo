@@ -11,7 +11,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="shortcut icon" type="image/x-icon" href="img/ico.ico">
 
-        <!-- Font Awesome -->
+    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
 
     <!-- Bootstrap core CSS -->
@@ -25,6 +25,16 @@
     <link href="<?php echo RUTA_CSS?>formulario/index.css" rel="stylesheet">
 
 </head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Y77WN1V427"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+
+function gtag() {
+    dataLayer.push(arguments);
+}
+gtag('js', new Date());
+</script>
 
 <body class="oculto">
 
