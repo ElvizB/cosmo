@@ -12,5 +12,3 @@ $(".nav-bar a").on("click", function(event) {
     );
   event.preventDefault();
 });
-
-console.log("hola");

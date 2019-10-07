@@ -5,15 +5,13 @@ include_once 'plantillas/documento-declaracion.inc.php';
 
 
 <!--Navbar-->
-<header class="container navbar-background">
+<header class="container navbar-background ">
     <nav class="navbar custom-navbar navbar-background navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
-        <div class="container">
+        <div class="container nav-bar">
             <!-- Navbar brand -->
-            <a class="text-white font-weight-bold h2-responsive pl-md-5 pl-1" href="<?php echo SERVIDOR ?>">
+            <a class="text-white font-weight-bold h2-responsive pl-md-5 pl-1" href="#home">
                 <img src="img/logo.png" class="LogoI wow pulse pb-2" />
-
             </a>
-
             <!-- Collapse button -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
                 aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -355,8 +353,8 @@ include_once 'plantillas/documento-declaracion.inc.php';
                                 <!-- Button trigger modal-->
                                 <button type="button"
                                     class="btn btn-primary btn-ver-video font-cSemiBold animated zoomIn"
-                                    data-toggle="modal" data-target="#modalYT"><i class="fas fa-play pr-2"></i>VER
-                                    VIDEO
+                                    data-toggle="modal" data-target="#modalYT"><img class="img-fluid pr-2"
+                                        src="img/ico_video.png" alt="video">VER VIDEO
                                 </button>
 
                                 <!--Modal: modalYT-->
@@ -381,8 +379,8 @@ include_once 'plantillas/documento-declaracion.inc.php';
                                             <!--Footer-->
                                             <div class="modal-footer justify-content-center flex-column flex-md-row">
                                                 <button type="button"
-                                                    class="btn btn-outline-primary btn-rounded btn-md ml-4"
-                                                    data-dismiss="modal">Close</button>
+                                                    class="btn btn-md ml-4 btn-enviar"
+                                                    data-dismiss="modal">Cerrar</button>
                                             </div>
 
                                         </div>
@@ -496,25 +494,35 @@ include_once 'plantillas/documento-declaracion.inc.php';
                         laoreet dolore magna aliquam erat volutpat.
                     </p>
 
-                    <form>
+                    <form id="formulario" class="form" role="form" action="" method="POST">
                         <div class="form-row">
                             <div class="form-group col-md-6">
-                                <input type="email" class="form-control" id="inputEmail4" placeholder="Nombre">
+                                <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre">
                             </div>
                             <div class="form-group col-md-6">
-                                <input type="password" class="form-control " id="inputPassword4" placeholder="Teléfono">
+                                <input type="text" class="form-control" id="celular" name="celular"
+                                    placeholder="Teléfono">
                             </div>
                         </div>
                         <div class="form-group">
-                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email">
+                            <input type="text" class="form-control" id="email" name="email" placeholder="Email">
                         </div>
                         <div class="form-group">
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                            <textarea class="form-control" id="mensaje" name="mensaje" rows="3"
                                 placeholder="Comentario"></textarea>
                         </div>
+                        <div class="form-group">
+                            <div class="g-recaptcha text-center"
+                                data-sitekey="6LfgYbwUAAAAAPWDkxumlQNLS2gssZzO_2zkYc8l">
+                            </div>
+                            <div id="g-recaptcha-error"></div>
+                        </div>
+
+                        <div id="respuesta"></div>
+
                         <div class="text-center text-md-left btn-content">
-                            <button type="submit" class="btn btn-primary btn-enviar font-cSemiBold"><i
-                                    class="far fa-paper-plane pr-3"></i>ENVIAR</button>
+                            <button id="btnenviar" class="btn btn-primary btn-enviar font-cSemiBold"><img
+                                    class="img-fluid pr-2" src="img/ico_send.png" alt="video" />ENVIAR</button>
                         </div>
                     </form>
                 </div>
@@ -526,7 +534,9 @@ include_once 'plantillas/documento-declaracion.inc.php';
             <div class="col-lg-6 pl-0 pl-sm-5 wow fadeIn" data-wow-delay="0.4s">
                 <div class="pt-5"></div>
                 <div class="pb-3 mb-lg-0 mb-4 pt-5 text-center text-sm-left">
-                    <img class="img-fluid" src="img/contacto/cosmo.png" alt="cosmo">
+                    <div class="pt-5">
+                        <img class="img-fluid" src="img/contacto/cosmo.png" alt="cosmo">
+                    </div>
                 </div>
                 <div class="text-center text-sm-left font-cLight">
                     <span class="text-white text-small">¿Tienes preguntas?</span>
@@ -586,7 +596,8 @@ include_once 'plantillas/documento-declaracion.inc.php';
 </footer>
 
 <div>
-    <button id="topbtn" class="waves-effect waves-light z-depth-2"><i class="fas fa-chevron-up fa-2x"></i></button>
+    <button id="topbtn" class="waves-effect waves-light z-depth-2"><img class="img-fluid" src="img/flecha_up.png"
+            alt="video"></button>
 </div>
 
 
