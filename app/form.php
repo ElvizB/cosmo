@@ -4,7 +4,7 @@ $email          = isset($_POST['email'])    ?   $_POST['email']     : '';
 $celular        = isset($_POST['celular'])  ?   $_POST['celular']   : '';
 $mensaje        = isset($_POST['mensaje'])  ?   $_POST['mensaje']   : '';
 
-if( $nombre === '' || $email==='' || $celular=== '' || $celular === '' || $mensaje==='') {
+if( $nombre === '' || $email==='' || $celular=== '' || $mensaje==='') {
   echo json_encode('Llena los campos ctm');
 }else{
   echo json_encode('Correcto: <br> Sus Datos son: ');
@@ -13,7 +13,6 @@ if( $nombre === '' || $email==='' || $celular=== '' || $celular === '' || $mensa
 $nombre         = isset($_POST['nombre'])   ?   $_POST['nombre']    : '';
 $email          = isset($_POST['email'])    ?   $_POST['email']     : '';
 $celular        = isset($_POST['celular'])  ?   $_POST['celular']   : '';
-$asunto         = isset($_POST['asunto'])   ?   $_POST['asunto']    : '';
 $mensaje        = isset($_POST['mensaje'])  ?   $_POST['mensaje']   : '';
 $contenido  = '
                 <html>
