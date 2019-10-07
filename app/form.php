@@ -36,7 +36,7 @@ $contenido .= "Enviado el : " . date('d-m-Y');
 $headers    =   'MIME-Version: 1.0' . "\r\n";
 $headers   .=  "Content-type: text/html; charset=UTF-8\r\n";
 
-$destinatario   = 'From : contacto@rmgol.com';
+$destinatario   = 'contacto@rmgol.com';
 //$asunto         = 'Consultas sobre los programas';
 
 // Enviar correo

@@ -369,8 +369,7 @@ include_once 'plantillas/documento-declaracion.inc.php';
                                             <div class="modal-body mb-0 p-0">
 
                                                 <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
-                                                    <iframe class="embed-responsive-item"
-                                                        src="https://player.vimeo.com/video/115098447"
+                                                    <iframe class="embed-responsive-item" src=""
                                                         allowfullscreen></iframe>
                                                 </div>
 
@@ -378,8 +377,7 @@ include_once 'plantillas/documento-declaracion.inc.php';
 
                                             <!--Footer-->
                                             <div class="modal-footer justify-content-center flex-column flex-md-row">
-                                                <button type="button"
-                                                    class="btn btn-md ml-4 btn-enviar"
+                                                <button type="button" class="btn btn-md ml-4 btn-enviar"
                                                     data-dismiss="modal">Cerrar</button>
                                             </div>
 
@@ -532,9 +530,9 @@ include_once 'plantillas/documento-declaracion.inc.php';
 
             <!-- Grid column -->
             <div class="col-lg-6 pl-0 pl-sm-5 wow fadeIn" data-wow-delay="0.4s">
-                <div class="pt-5"></div>
+                <div class="pt-0 pt-md-5"></div>
                 <div class="pb-3 mb-lg-0 mb-4 pt-5 text-center text-sm-left">
-                    <div class="pt-5">
+                    <div class="pt-0 pt-md-5">
                         <img class="img-fluid" src="img/contacto/cosmo.png" alt="cosmo">
                     </div>
                 </div>
