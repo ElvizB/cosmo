@@ -1,606 +1,208 @@
 <?php
-include_once 'app/config.inc.php';
-include_once 'plantillas/documento-declaracion.inc.php';
+    include_once 'app/config.inc.php';
+    include_once 'plantillas/documento-declaracion.inc.php';
+    include_once 'plantillas/Navbar/index.php';       
+$titulo = 'Inicio';
 ?>
 
-
-<!--Navbar-->
-<header class="container navbar-background ">
-    <nav class="navbar custom-navbar navbar-background navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
-        <div class="container nav-bar">
-            <!-- Navbar brand -->
-            <a class="text-white font-weight-bold h2-responsive pl-md-5 pl-1" href="#home">
-                <img src="img/logo.png" class="LogoI wow pulse pb-2" />
-            </a>
-            <!-- Collapse button -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
-                aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <!-- Collapsible content -->
-            <div class="collapse navbar-collapse" id="basicExampleNav">
-                <!-- Links -->
-                <ul class="navbar-nav ml-auto nav-bar" id="botones">
-                    <li class="nav-item">
-                        <a href="#home" class="font-cRegular nav-link mx-3">Inicio
-                            <span class=" sr-only">(current)</span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#somos" class=" nav-link font-cRegular mx-3 ">Nosotros</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#servicios" class=" nav-link font-cRegular mx-3 ">Servicios</a>
-                    </li>
-                    <li class=" nav-item">
-                        <a href="#proyectos" class=" nav-link font-cRegular mx-3 ">Proyectos</a>
-                    </li>
-                    <li class=" nav-item">
-                        <a href="#contacto" class=" nav-link font-cRegular mx-3 ">Contacto</a>
-                    </li>
-                </ul>
-                <!-- Links -->
-            </div>
-            <!-- Collapsible content -->
-        </div>
-    </nav>
-</header>
-<!--/.Navbar-->
-
-<div id="home" class="carousel slide carousel-fade" data-ride="carousel">
-
-    <div class="carousel-inner " role="listbox">
-        <!-- First slide -->
-        <div class="carousel-item banner_uno view active">
-            <div class="flex-center slider-title">
-                <ul class="list-style">
-                    <li>
-                        <h1 class="display-4 text-yellow data-title animated fadeInDown delay-1s font-cLight">
-                            REVOLUCIONA<br>
-                            TUS PROYECTOS
-                        </h1>
-                    </li>
-                    <div class="flex-center mb-3 animated fadeInDown delay-2s">
-                        <img class="img-fluid" src="img/servicios/line_inicio.png" alt="line">
-                    </div>
-                    <li>
-                        <p
-                            class="h3-responsive data-sutitile font-weight-normal animated fadeInUp delay-2s text-white font-cLight">
-                            Solicite el
-                            plan más adecuado para su empresa.</p>
-                    </li>
-                    <li class="pt-md-0 pt-5 nav-bar">
-                        <a href="#somos"
-                            class="btn btn-info animated zoomIn btn-empezar delay-3s font-cSemiBold rounded">EMPIEZA
-                            YA</a>
-                    </li>
-
-                </ul>
-                <div class="flecha-down nav-bar">
-                    <a href="#somos" class="">
-                        <img class="img-fluid animated pulse infinite" src="img/down.png" alt="line">
-                    </a>
-                </div>
-            </div>
-        </div>
-        <!--/.First slide-->
-
+<section class="service">
+    <div class="content-service">
+        <p>HACEMOS_</p>
+        <ul class="list-service">
+            <li class="item">Producción de contenidos </li>
+            <li class="item">Cursos Virtuales</li>
+            <li class="item">Diseño web</li>
+            <li class="item">Multimedia</li>
+            <li class="item">Imagen corporativa</li>
+        </ul>
     </div>
-
-</div>
-
-<!-- Section: QUIÉNES SOMOS -->
-<section class="my-5 container sec-somos" id="somos">
-
-    <!-- Grid row -->
-    <div class="row">
-
-        <!-- Grid column -->
-        <div class="col-lg-6 col-xl-6">
-
-            <!-- Post title -->
-            <h2 class="h2-responsive text-center text-md-left text-color-abaut font-cBol bottom-reset wow fadeInUp"
-                data-wow-delay="0.2s">¿QUIÉNES
-                SOMOS?</h2>
-            <div class="text-center text-md-left mb-2 wow fadeInUp" data-wow-delay="0.2s"><img class="img-fluid"
-                    src="img/line.png" alt="line"></div>
-
-            <!-- Excerpt -->
-            <p class="black-text text-justify text-small font-cLight wow fadeInUp" data-wow-delay="0.2s">
-                <strong>COSMO</strong> es un equipo de
-                profesionales
-                especializados en la gestión y desarrollo de productos digitales y herramientas virtuales como
-                soluciones para el sector corporativo y educativo, los cuales sumarán valor en el crecimiento
-                organizacional de nuestros clientes.</p> <!-- Post data -->
-            <p class="black-text text-justify text-small font-cLight wow fadeInUp" data-wow-delay="0.2s">Trabajamos cada
-                proyecto aplicando tres grandes
-                principios:
-            </p>
-            <div class="row wow fadeInUp" data-wow-delay="0.2s">
-                <div class="col-lg-2 col-md-2 col-sm-2 text-center text-md-left pb-3 pb-md-0">
-                    <img class="img-fluid" src="img/nosotros/analisis.png" alt="Sample image">
-                </div>
-                <div class="col-lg-10 col-md-10 col-sm-10 text-color-abaut text-center text-md-left font-cRegular">
-                    <h5 class="">Análisis </h5>
-                    <p class=" text-small">Para conocer las necesidades de cada proyecto.
-                    </p>
-                </div>
-            </div>
-
-            <div class="row wow fadeInUp" data-wow-delay="0.2s">
-                <div class="col-lg-2 col-md-2 col-sm-2 text-center text-md-left pb-3 pb-md-0">
-                    <img class="img-fluid" src="img/nosotros/diseno.png" alt="Sample image">
-                </div>
-                <div class="col-lg-10 col-md-10 col-sm-10 text-color-abaut text-center text-md-left font-cRegular">
-                    <h5 class="">Diseño </h5>
-                    <p class=" text-small">Para lograr construir estrategias óptimas de comunicación.
-                    </p>
-                </div>
-            </div>
-
-            <div class="row wow fadeInUp" data-wow-delay="0.2s">
-                <div class="col-lg-2 col-md-2 col-sm-2 text-center text-md-left pb-3 pb-md-0">
-                    <img class="img-fluid" src="img/nosotros/story.png" alt="Sample image">
-                </div>
-                <div class="col-lg-10 col-md-10 col-sm-10 text-color-abaut text-center text-md-left font-cRegular">
-                    <h5 class="">Storytelling </h5>
-                    <p class=" text-small">Para potenciar contenidos y generar interés constante.
-                    </p>
-                </div>
-            </div>
-
-        </div>
-        <!-- Grid column -->
-
-
-        <!-- Grid column -->
-        <div class="col-lg-6 col-xl-6">
-
-            <!-- Featured image -->
-            <div class="view overlay rounded mb-lg-0 mb-4 pt-4 wow zoomIn" data-wow-delay="0.2s">
-                <img class="img-fluid" src="img/nosotros/about.png" alt="Sample image">
-            </div>
-
-        </div>
-        <!-- Grid column -->
-
-
-    </div>
-    <!-- Grid row -->
-
 </section>
-<!-- Section: QUIÉNES SOMOS -->
 
-<!-- Section: Servicios -->
-<section class="my-5 container title" id="servicios">
-
-    <div>
-        <!-- Section heading -->
-        <h1 class=" h1-responsive font-weight-bold text-center text-color-abaut font-cBol bottom-reset wow fadeInUp"
-            data-wow-delay="0.2s">SERVICIOS</h1>
-        <div class="text-center mb-2 wow fadeInUp" data-wow-delay="0.3s"><img class="img-fluid" src="img/line.png"
-                alt="line"></div>
-        <!-- Section description -->
-        <p class="text-center w-responsive mx-auto pb-4 font-cLight wow fadeInUp" data-wow-delay="0.4s">Lorem ipsum
-            dolor
-            sit amet, consectetuer adipiscing
-            elit, sed diam
-            nonummy nibh euismod.</p>
-
-        <div class="cd-timeline js-cd-timeline">
-
-            <div class=" cd-timeline__container">
-
-                <div class="cd-timeline__block ">
-                    <div class=" cd-timeline__img cd-timeline__img--picture wow zoomIn" data-wow-delay="0.2s">
-                        <img src="img/servicios/icons/icon_v_e.png" alt="Picture">
-                    </div> <!-- cd-timeline__img -->
-
-                    <div class="cd-timeline__content text-component">
-
-                        <img class="img-fluid z-depth-2 rounded wow fadeInUp" data-wow-delay="0.2s"
-                            src="img/servicios/v_e.png" alt="Sample image">
-
-                        <div class="cd-timeline__date wow fadeInUp" data-wow-delay="0.2s">
-                            <h2
-                                class="h2-responsive bottom-reset text-center text-md-left text-color-abaut font-cSemiBold">
-                                VÍDEOS EXPLICATIVOS</h2>
-                            <div class="mb-2 text-center text-md-left"><img class="img-fluid"
-                                    src="img/servicios/line_s.png" alt="line"></div>
-                            <div class="text-center text-md-left">
-                                <p class="bottom-reset font-cLight">Presentamos contenidos informativos e
-                                </p>
-                                <p class="bottom-reset font-cLight">inductivos de manera dinámica y
-                                    ordenada.
-                                </p>
-                            </div>
-
-                        </div>
-                    </div> <!-- cd-timeline__content z-depth-2-->
-                </div> <!-- cd-timeline__block -->
-
-                <div class="cd-timeline__block ">
-                    <div class="cd-timeline__img cd-timeline__img--movie wow zoomIn" data-wow-delay="0.2s">
-                        <img src="img/servicios/icons/icon_learning.png" alt="Learning">
-                    </div> <!-- cd-timeline__img -->
-
-                    <div class="cd-timeline__content text-component wow fadeInUp" data-wow-delay="0.2s">
-                        <img class="img-fluid z-depth-2 rounded" src="img/servicios/learning.png" alt="Sample image">
-
-                        <div class="cd-timeline__date">
-                            <h2 class=" h2-responsive bottom-reset text-center text-md-left text-color-abaut
-                        font-cSemiBold">
-                                E-LEARNING</h2>
-                            <div class="mb-2 text-center text-md-left"><img class="img-fluid"
-                                    src="img/servicios/line_s.png" alt="line">
-                            </div>
-                            <div class="text-center text-md-left">
-                                <p class="bottom-reset font-cLight">Creamos cursos virtuales como </p>
-                                <p class="bottom-reset font-cLight">herramientas de capacitación efectiva.
-                                </p>
-                            </div>
-
-                        </div>
-                    </div> <!-- cd-timeline__content -->
-                </div> <!-- cd-timeline__block -->
-
-                <div class="cd-timeline__block ">
-                    <div class="cd-timeline__img cd-timeline__img--picture wow zoomIn" data-wow-delay="0.2s">
-                        <img src="img/servicios/icons/icon_d_cg.png" alt="diseño">
-                    </div> <!-- cd-timeline__img -->
-
-                    <div class="cd-timeline__content text-component wow fadeInUp" data-wow-delay="0.2s">
-                        <img class="img-fluid z-depth-2 rounded" src="img/servicios/d_cg.png" alt="Sample image">
-
-                        <div class="cd-timeline__date">
-                            <h2
-                                class="h2-responsive bottom-reset text-center text-md-left text-color-abaut font-cSemiBold">
-                                DISEÑO Y COMUNICACIÓN GRÁFICA</h2>
-                            <div class="mb-2 text-center text-md-left"><img class="img-fluid"
-                                    src="img/servicios/line_s.png" alt="line">
-                            </div>
-                            <div class="text-center text-md-left">
-                                <p class="bottom-reset font-cLight">Creamos y diseñamos presentaciones</p>
-                                <p class="bottom-reset font-cLight">guías gráficas e infografías de alto
-                                    impacto.
-                                </p>
-                            </div>
-                        </div>
-                    </div> <!-- cd-timeline__content -->
-                </div> <!-- cd-timeline__block -->
-
-                <div class="cd-timeline__block">
-                    <div class="cd-timeline__img cd-timeline__img--location wow zoomIn" data-wow-delay="0.2s">
-                        <img src="img/servicios/icons/icon_h_w.png" alt="Location">
-                    </div> <!-- cd-timeline__img -->
-
-                    <div class="cd-timeline__content text-component wow fadeInUp" data-wow-delay="0.2s">
-                        <img class="img-fluid z-depth-2 rounded" src="img/servicios/h_w.png" alt="Sample image">
-
-                        <div class="cd-timeline__date">
-                            <h2
-                                class="h2-responsive bottom-reset text-center text-md-left text-color-abaut font-cSemiBold">
-                                HERRAMIENTAS WEB</h2>
-                            <div class="mb-2 text-center text-md-left"><img class="img-fluid"
-                                    src="img/servicios/line_s.png" alt="line">
-                            </div>
-                            <div class="text-center text-md-left">
-                                <p class="bottom-reset font-cLight">Implementamos herramientas web y </p>
-                                <p class="bottom-reset font-cLight">plataformas digitales.</p>
-                            </div>
-
-                        </div>
-                    </div> <!-- cd-timeline__content -->
-                </div> <!-- cd-timeline__block -->
-            </div>
-        </div>
+<section class="procesos">
+    <div class="content-procesos">
+        <h1>Nuestro proceso de virtualización</h1>
+        <p>Transformamos contenidos complejos en contenidos fáciles de comprender.</p>
+        <h2>¿Cómo lo hacemos?</h2>
     </div>
-
 </section>
-<!-- Section: Servicios -->
 
-<!-- Section: Proyectos - reel -->
-<section class="my-5 " id="proyectos">
-
-    <div class="container-fluid">
-        <!-- Grid row -->
-        <div class="row ">
-            <!-- Grid column -->
-            <div class="col-lg-4 proyecto">
-                <!-- Featured image -->
-                <div class="flex-center slider-title">
-                    <ul class="list-style">
-                        <li>
-                            <h2 class="h2-responsive text-reel font-cBol wow fadeInUp" data-wow-delay="0.2s"> CAPTURA
-                                DEL REEL </h2>
-                        </li>
+<section class="proceso-list">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-6">
+                <div class="proceso-title">
+                    <p>ANÁLISIS_</p>
+                    <ul class="proceso-descriptions">
+                        <h1>A</h1>
+                        <li>Análisis de necesidades del cliente y proyecto.</li>
+                        <li>Análisis del público objetivo.</li>
+                        <li>Análisis de contenidos que el cliente desea impartir.</li>
                     </ul>
                 </div>
-            </div> <!-- Grid column -->
-
-
-            <!-- Grid column -->
-            <div class="col-lg-8 bg-proyecto">
-
-                <!-- Featured image -->
-                <div class="container">
-
-                    <!-- Grid row -->
-                    <div class="row my-5">
-
-                        <!-- Grid column -->
-                        <div class="col-lg-7 pt-1 pt-sm-5 pt-md-2 pl-7">
-
-                            <!-- Post title -->
-                            <h2 class="h2-responsive font-cBol text-center text-md-left text-white bottom-reset wow fadeInUp"
-                                data-wow-delay="0.2s">
-                                PROYECTOS - REEL</h2>
-                            <div class="text-center text-md-left mb-2 wow fadeInUp" data-wow-delay="0.2s"><img
-                                    class="img-fluid" src="img/servicios/line_reel.png" alt="line"></div>
-
-                            <!-- Excerpt -->
-                            <p class="black-text text-justify text-small font-cLight wow fadeInUp"
-                                data-wow-delay="0.2s">Lorem ipsum dolor sit amet,
-                                consectetuer
-                                adipiscing elit, sed diam nonummy nibh euismod
-                                tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad
-                                minim veniam, quis
-                                nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex
-                                ea commodo</p>
-                            <!-- Post data -->
-                            <div class="text-center text-sm-left ver-video wow fadeInUp" data-wow-delay="0.3s">
-                                <!-- Button trigger modal-->
-                                <button type="button"
-                                    class="btn btn-primary btn-ver-video font-cSemiBold animated zoomIn"
-                                    data-toggle="modal" data-target="#modalYT"><img class="img-fluid pr-2"
-                                        src="img/ico_video.png" alt="video">VER VIDEO
-                                </button>
-
-                                <!--Modal: modalYT-->
-                                <div class="modal fade" id="modalYT" tabindex="-1" role="dialog"
-                                    aria-labelledby="myModalLabel" aria-hidden="true">
-                                    <div class="modal-dialog modal-lg" role="document">
-
-                                        <!--Content-->
-                                        <div class="modal-content">
-
-                                            <!--Body-->
-                                            <div class="modal-body mb-0 p-0">
-
-                                                <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
-                                                    <iframe class="embed-responsive-item" src=""
-                                                        allowfullscreen></iframe>
-                                                </div>
-
-                                            </div>
-
-                                            <!--Footer-->
-                                            <div class="modal-footer justify-content-center flex-column flex-md-row">
-                                                <button type="button" class="btn btn-md ml-4 btn-enviar"
-                                                    data-dismiss="modal">Cerrar</button>
-                                            </div>
-
-                                        </div>
-                                        <!--/.Content-->
-
-                                    </div>
-                                </div>
-                                <!--Modal: modalYT-->
-
-                            </div>
-                        </div>
-                        <!-- Grid column -->
-
-
-                        <!-- Grid column -->
-                        <div class="col-lg-5">
-                            <!-- Featured image -->
-                            <div class="text-center wow zoomIn" data-wow-delay="0.2s">
-                                <img class="img-fluid" src="img/proyectos/p_video.png" alt="Sample image">
-                            </div>
-
-                        </div>
-                        <!-- Grid column -->
-
-
-                    </div>
-                    <!-- Grid row -->
-
-                </div>
-
             </div>
-            <!-- Grid column -->
-        </div>
-        <!-- Grid row -->
-    </div>
 
-</section>
-<!-- Section: Proyectos - reel -->
-
-<!-- Section: En nosotros -->
-<section class="team-section text-center my-5 container" id="nosotros">
-
-    <div>
-        <!-- Section heading -->
-        <div class="pt-4 wow fadeInUp" data-wow-delay="0.2s">
-            <h2 class="h2-responsive text-color-abaut font-cBol bottom-reset">CONFÍAN EN NOSOTROS</h2>
-            <div class="text-center mb-2"><img class="img-fluid" src="img/line.png" alt="line"></div>
-
-        </div>
-        <!-- Section description -->
-
-        <div class="row pt-3 flex-center">
-            <!-- Grid column -->
-            <div class="col-lg-3 col-md-6 py-5">
-                <div class="wow zoomIn animated" data-wow-delay="0.5s">
-                    <img class="img-fluid" src="img/proyectos/entel.png" alt="entel">
+            <div class="col-lg-4 col-md-6">
+                <div class="proceso-title">
+                    <p>DISEÑO_</p>
+                    <ul class="proceso-descriptions">
+                        <h1>D</h1>
+                        <li>Objetivos de aprendizaje.</li>
+                        <li>Estructura y secuencia de contenido.</li>
+                        <li>Estrategia de comunicación.</li>
+                        <li>Estrategia pedagógica y de evaluación.</li>
+                    </ul>
                 </div>
             </div>
-            <!-- Grid column -->
 
-            <!-- Grid column -->
-            <div class="col-lg-3 col-md-6 py-5">
-                <div class="wow zoomIn animated" data-wow-delay="0.5s">
-                    <img class="img-fluid" src="img/proyectos/eip.png" alt="entel">
+            <div class="col-lg-4 col-md-6">
+                <div class="proceso-title">
+                    <p>DESARROLLO_</p>
+                    <ul class="proceso-descriptions">
+                        <h1>D</h1>
+                        <li>Desarrollo de entregables.</li>
+                        <li>Desarrollo del guion gráfico (storyboard).</li>
+                        <li>Producción del contenido en el formato de presentación deseado.</li>
+                    </ul>
                 </div>
             </div>
-            <!-- Grid column -->
-            <!-- Grid column -->
-            <div class="col-lg-3 col-md-6 py-5">
-                <div class="wow zoomIn animated" data-wow-delay="0.5s">
-                    <img class="img-fluid" src="img/proyectos/andean.png" alt="entel">
-                </div>
-            </div>
-            <!-- Grid column -->
-            <!-- Grid column -->
-            <div class="col-lg-3 col-md-6 py-5">
-                <div class="wow zoomIn animated" data-wow-delay="0.5s">
-                    <img class="img-fluid" src="img/proyectos/et.png" alt="entel">
-                </div>
-            </div>
-            <!-- Grid column -->
+
 
         </div>
     </div>
-
-
 </section>
-<!-- Section: En nosotros -->
 
-<!-- Section: Contact  -->
-<section class="bg-footer" id="contacto">
-
-    <div class="container pb-5">
-        <!-- Grid row -->
-        <div class="row">
-
-            <!-- Grid column -->
-            <div class="col-lg-6 wow fadeIn" data-wow-delay="0.2s">
-                <div class="pt-3"></div>
-                <h2 class="h2-responsive text-white text-center text-md-left pt-5 font-cBol bottom-reset">
-                    CONTACTO
-                </h2>
-                <div class="text-center text-md-left mb-2"><img class="img-fluid" src="img/line.png" alt="line"></div>
-                <div class="border-form">
-                    <h4 class=" text-yellow text-justify font-cRegular">¿En qué te podemos ayudar?</h4>
-                    <p class="text-white text-justify text-small pb-2 font-cLight">Lorem ipsum dolor sit amet,
-                        consectetuer
-                        adipiscing
-                        elit,
-                        sed diam nonummy nibh euismod tincidunt ut
-                        laoreet dolore magna aliquam erat volutpat.
+<section class="objetivos">
+    <div class="row obj-ancho">
+        <div class="col-xl-3 col-lg-6 col-md-6 u-reset">
+            <div>
+                <img src="<?php echo RUTA_IMG?>objetivos/obj-1.png" class="img-fluid" draggable="false" />
+            </div>
+        </div>
+        <div class="col-xl-3 col-lg-6 col-md-6 u-reset">
+            <div class="content-obj-descriptions">
+                <div class="line-yellow"></div>
+                <div class="obj-descriptions">
+                    <p>
+                        Hoy, lanzamos nuevas agencias de medios suecas. Ahora con una versión de pago del Barómetro de
+                        la
+                        Oficina de Medios, donde hemos puesto mucho esfuerzo en desarrollar una herramienta realmente
+                        inteligente donde los suscriptores puedan comparar fácilmente las estadísticas entre ...
                     </p>
-
-                    <form id="formulario" class="form" role="form" action="" method="POST">
-                        <div class="form-row">
-                            <div class="form-group col-md-6">
-                                <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre">
-                            </div>
-                            <div class="form-group col-md-6">
-                                <input type="text" class="form-control" id="celular" name="celular"
-                                    placeholder="Teléfono">
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <input type="text" class="form-control" id="email" name="email" placeholder="Email">
-                        </div>
-                        <div class="form-group">
-                            <textarea class="form-control" id="mensaje" name="mensaje" rows="3"
-                                placeholder="Comentario"></textarea>
-                        </div>
-                        <div class="form-group">
-                            <div class="g-recaptcha text-center"
-                                data-sitekey="6LfgYbwUAAAAAPWDkxumlQNLS2gssZzO_2zkYc8l">
-                            </div>
-                            <div id="g-recaptcha-error"></div>
-                        </div>
-
-                        <div id="respuesta"></div>
-
-                        <div class="text-center text-md-left btn-content">
-                            <button id="btnenviar" class="btn btn-primary btn-enviar font-cSemiBold"><img
-                                    class="img-fluid pr-2" src="img/ico_send.png" alt="video" />ENVIAR</button>
-                        </div>
-                    </form>
                 </div>
-
             </div>
-            <!-- Grid column -->
-
-            <!-- Grid column -->
-            <div class="col-lg-6 pl-0 pl-sm-5 wow fadeIn" data-wow-delay="0.4s">
-                <div class="pt-0 pt-md-5"></div>
-                <div class="pb-3 mb-lg-0 mb-4 pt-5 text-center text-sm-left">
-                    <div class="pt-0 pt-md-5">
-                        <img class="img-fluid" src="img/contacto/cosmo.png" alt="cosmo">
-                    </div>
-                </div>
-                <div class="text-center text-sm-left font-cLight">
-                    <span class="text-white text-small">¿Tienes preguntas?</span>
-                    <br>
-                    <span class="text-white text-small">¡Contáctanos directamente!
-                    </span>
-                </div>
-
-                <div class="row pt-3">
-                    <div class="col-lg-2 col-md-2 col-sm-2 text-center text-sm-left pb-3 pb-md-0">
-                        <img class="img-fluid" src="img/contacto/tel.png" alt="Sample image">
-                    </div>
-                    <div class="col-lg-10 col-md-10 col-sm-10 text-white text-center text-sm-left pt-3">
-                        <p class="font-cRegular text-small">Teléfono: 949 403 400
-                        </p>
-                    </div>
-                </div>
-
-                <div class="row pt-4">
-                    <div class="col-lg-2 col-md-2 col-sm-2 text-center text-md-left pb-3 pb-md-0">
-                        <img class="img-fluid" src="img/contacto/email.png" alt="Sample image">
-                    </div>
-                    <div class="col-lg-10 col-md-10 col-sm-10 text-white text-center text-sm-left pt-3">
-                        <p class="font-cRegular text-small">Email: info@somoscosmo.pe
-                        </p>
-                    </div>
-                </div>
-
-                <div class="row pt-4">
-                    <div class="col-lg-2 col-md-2 col-sm-2 text-center text-md-left pb-3 pb-md-0">
-                        <img class="img-fluid" src="img/contacto/ubi.png" alt="Sample image">
-                    </div>
-                    <div class="col-lg-10 col-md-10 col-sm-10 text-white text-center text-sm-left pt-3">
-                        <p class="font-cRegular text-small">Oficinas: Benavides 140 - Of. 505
-                        </p>
-                    </div>
-                </div>
-
-
-
-            </div>
-            <!-- Grid column -->
         </div>
-        <!-- Grid row -->
-        <div class="pb-5"></div>
+        <div class="col-xl-3 col-lg-6 col-md-6 u-reset">
+            <div>
+                <img src="<?php echo RUTA_IMG?>objetivos/obj-2.png" class="img-fluid" draggable="false" />
+            </div>
+        </div>
+        <div class="col-xl-3 col-lg-6 col-md-6 u-reset">
+            <div class="content-obj-descriptions">
+                <div class="line-yellow"></div>
+                <div class="obj-descriptions">
+                    <p>
+                        Woo hoo !! Ahora es en vivo, nuevo sveafastigheter.se, y estamos realmente orgullosos 🙂. #
+                        agencia digital #digitalagency #sveafastigheter #wonderfour #lovedigital
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row obj-ancho">
+
+        <div class="col-xl-3 col-lg-6 col-md-6 u-reset">
+            <div class="content-obj-descriptions">
+                <div class="line-yellow"></div>
+                <div class="obj-descriptions">
+                    <p>
+                        Nuevo Sulky. Para cualquiera que ama el trote. Proyecto emocionante, desafiante y muy divertido
+                        donde realmente pudimos mostrar nuestro conocimiento en WordPress y administrar API. La primera
+                        parte del proyecto es en vivo. Ver más del caso... </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-3 col-lg-6 col-md-6 u-reset">
+            <div>
+                <img src="<?php echo RUTA_IMG?>objetivos/obj-3.png" class="img-fluid" draggable="false" />
+            </div>
+        </div>
+
+        <div class="col-xl-6 col-lg-6 col-md-6 u-reset u-background">
+            <div>
+
+            </div>
+        </div>
+
+        <div class="col-xl-3 col-lg-6 col-md-6 u-reset">
+            <div>
+                <img src="<?php echo RUTA_IMG?>objetivos/obj-4.png" class="img-fluid" draggable="false" />
+            </div>
+        </div>
+        <div class="col-xl-3 col-lg-6 col-md-6 u-reset">
+            <div class="content-obj-descriptions">
+                <div class="line-yellow"></div>
+                <div class="obj-descriptions">
+                    <p>
+                        Saludos a Yuriko. Ella es CTO y desarrolladora con nosotros en Wonderfour. Ella sabe casi todo
+                        sobre WordPress, paywalls, sistemas de publicidad y todo tipo de API. Entonces ahora lo sabes. -
+                        # agencia digital # agencia web #lovedig ... </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xl-6 col-lg-6 col-md-6 u-reset u-background">
+            <div class="content-obj-title">
+                <h1>Entonces<br>
+                    alcanzamos tus <br>
+                    objetivos digitales</h1>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section class="partner">
+    <div class="container ">
+        <p class="partner-title">NUESTROS CLIENTES_</p>
+        <p class="partner-subtitle">Confían en nuestras soluciones</p>
+        <div class="img-partner">
+            <img class="img-fluid" src="<?php echo RUTA_IMG?>partners/rimac.png" alt="rimac" draggable="false" />
+            <img class="img-fluid" src=" <?php echo RUTA_IMG?>partners/entel.png" alt="entel" draggable="false" />
+            <img class="img-fluid" src="<?php echo RUTA_IMG?>partners/sacosi.png" alt="sacosi" draggable="false" />
+            <img class="img-fluid" src="<?php echo RUTA_IMG?>partners/andean.png" alt="andean" draggable="false" />
+            <img class="img-fluid" src="<?php echo RUTA_IMG?>partners/galatel.png" alt="galatel" draggable="false" />
+            <img class="img-fluid" src="<?php echo RUTA_IMG?>partners/whitepoint.png" alt="whitepoint"
+                draggable="false" />
+        </div>
+    </div>
+
+</section>
+
+<section class="u-padding">
+    <div class="digital">
+        <div class="u-wrapper content-digital">
+            <div class="content-digital-min">
+                <div class="digital-title">
+                    <p>¿Estás buscando una agencia digital?
+                        con consejo técnico?</p>
+                </div>
+                <div class="digital-descriptions">
+                    <p>Entonces puedes dejar de mirar ahora. Póngase en contacto con Diego Campó, director de nuevos
+                        negocios de la agencia digital Cosmo en Lima - Perú.</p>
+                    <p><u>holadiego@cosmo.pe</u>
+                        <br>
+                        +51 949 403 400</p>
+                </div>
+                <button class="btn-contact">¡Contáctame!</button>
+            </div>
+
+        </div>
     </div>
 </section>
-<!-- Section: Contact -->
-
-<footer class="page-footer bg-footer border-footer">
-
-    <div class=" text-center py-3 text-white font-small font-cLight">
-        Cosmo - Todos los derechos resevados 2019
-    </div>
-    <!-- Copyright -->
-
-</footer>
-
-<div>
-    <button id="topbtn" class="waves-effect waves-light z-depth-2"><img class="img-fluid" src="img/flecha_up.png"
-            alt="video"></button>
-</div>
-
-
 
 
 <?php
-  include_once 'plantillas/documento-cierre.inc.php';
+    include_once 'plantillas/footer.php';
+    include_once 'plantillas/documento-cierre.inc.php';
 ?>

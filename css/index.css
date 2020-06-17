@@ -1,293 +1,323 @@
 @font-face {
-  font-family: "Ciutadella Bold";
-  src: url("../fonts/CiutadellaBold.otf");
+  font-family: "Muller Bold";
+  src: url("../fonts/MullerBold.ttf");
 }
 
 @font-face {
-  font-family: "Ciutadella Light";
-  src: url("../fonts/CiutadellaLight.otf");
+  font-family: "Muller Light";
+  src: url("../fonts/MullerLight.ttf");
+}
+
+@font-face {
+  font-family: "Muller Regular";
+  src: url("../fonts/MullerRegular.ttf");
 }
 @font-face {
-  font-family: "Ciutadella Regular";
-  src: url("../fonts/CiutadellaRegular.otf");
-}
-@font-face {
-  font-family: "Ciutadella SemiBold";
-  src: url("../fonts/CiutadellaSemiBold.otf");
+  font-family: "Muller Bold Italic";
+  src: url("../fonts/MullerBoldItalic.ttf");
 }
 
-.font-cBol {
-  font-family: "Ciutadella Bold";
+.banner-inicio {
+  background: url(../images/banner.png) no-repeat top;
+  background-size: cover;
+  height: 94vh;
 }
 
-.font-cLight {
-  font-family: "Ciutadella Light";
+.content-video {
+  display: grid;
+  height: 100%;
+  align-content: center;
 }
 
-.font-cRegular {
-  font-family: "Ciutadella Regular";
-}
-.font-cSemiBold {
-  font-family: "Ciutadella SemiBold";
-}
-.flecha-down {
-  position: absolute;
+.video-descriptions {
   color: white;
-  bottom: 30px;
-  right: 49%;
-  z-index: 999;
+}
+.video-descriptions p {
+  margin: 0;
+  font-size: 0.7em;
+  padding-bottom: 0.5em;
+  font-family: "Muller Regular";
 }
 
-#topbtn:focus {
-  outline: none !important;
-}
-
-#topbtn {
-  position: fixed;
-  bottom: 25px;
-  right: 25px;
-  width: 62px;
-  height: 62px;
-  background: #fbc411;
-  border-radius: 50%;
-  border: #fbc411;
-  color: white;
-  z-index: 999;
-}
-textarea.form-control {
-  resize: none;
-}
-
-.list-style {
-  list-style: none;
+.video-descriptions h1 {
+  margin: 0;
   padding: 0;
+  font-family: "Muller Bold";
+  font-size: 3.5em;
+}
+.btn-presentacion {
+  padding: 0.6em 1em;
+  background: #ffffff;
+  font-family: "Muller Regular";
+  font-size: 0.7em;
+  margin-top: 2em;
+}
+
+/****SERVICES*******/
+.service {
+  padding: 10em 0em;
+}
+
+.content-service {
+  margin: auto;
+  max-width: 800px;
+  padding: 0.5em;
+}
+
+.content-service p {
+  font-size: 0.5em;
+  font-family: "Muller Bold";
+  background: #ffd540;
+  max-width: 8%;
+  padding: 0em 0.4em;
+}
+
+.list-service {
+  list-style: none;
+}
+
+.list-service li {
+  font-size: 2.5em;
+  font-family: "Muller Regular";
+}
+.content-service .list-service .item {
+  position: relative;
+  display: table;
+}
+.content-service .list-service .item:hover::before {
+  width: 100%;
+}
+.content-service .list-service .item::before {
+  content: "";
+  transition: width ease-in 0.5s;
+  width: 0;
+  background: #ffd540;
+  height: calc(100% + 10px);
+  position: absolute;
+  left: 0;
+  top: -3px;
+  z-index: -1;
+}
+/****END-SERVICES***/
+
+/*****PROCESOS******/
+.procesos {
+  padding: 3em 0em;
+  background: #f8c332;
+}
+.content-procesos {
+  margin: auto;
+  max-width: 800px;
+  padding: 0.5em;
   text-align: center;
 }
+.content-procesos h1 {
+  font-family: "Muller Bold";
+}
 
-html,
-body {
+.content-procesos p {
+  font-family: "Muller Light";
+}
+
+.content-procesos h2 {
+  font-family: "Muller Light";
+  color: white;
+}
+
+.proceso-list {
+  padding: 5em 0em;
+}
+
+.proceso-title p {
+  background: #f8c332;
+  max-width: 200px;
+  padding-left: 0.2em;
+  font-size: 0.7em;
+  font-family: "Muller Bold";
+}
+.proceso-descriptions {
+  padding-left: 1em;
+}
+.proceso-descriptions h1 {
+  color: #f8c332;
+  font-size: 4em;
+  font-family: "Muller Bold";
+}
+.proceso-descriptions li {
+  list-style: none;
+  font-size: 0.7em;
+  font-family: "Muller Regular";
+}
+
+/***END-PROCESOS****/
+
+/**SECTION PARTNER**/
+.partner {
+  padding: 5em 0em;
+}
+
+.img-partner img {
+  padding-right: 2em;
+  padding-top: 1em;
+}
+.partner-title {
+  background: #f8c332;
+  font-family: "Muller Bold";
+  font-size: 0.7em;
+  max-width: 13%;
+  margin: 0;
+}
+
+.partner-subtitle {
+  font-size: 0.7em;
+  padding-top: 0.6em;
+  font-family: "Muller Regular";
+}
+/**END-PARTNER**/
+
+/**SECTION DIGITAL**/
+.u-padding {
+  padding: 0em 0em;
+}
+.digital {
+  background: url(../images/digital/banner2.png) no-repeat top;
+  background-size: cover;
+  height: 60vh;
+}
+
+.content-digital {
+  display: grid;
   height: 100%;
-}
-.navbar {
-  background-color: #0e2449 !important;
-}
-
-.top-nav-collapse {
-  background-color: #0e2449 !important;
+  align-content: center;
+  padding: 0em 1em;
 }
 
-.text-yellow {
-  color: #fbc411;
+.digital-title p {
+  font-size: 30px;
+  font-family: "Muller Regular";
 }
+.digital-descriptions {
+  font-size: 0.7em;
+  padding: 1.5em 0em;
+  font-family: "Muller Regular";
+}
+.content-digital-min {
+  max-width: 650px;
+}
+.btn-contact {
+  background: transparent;
+  border: 2px solid;
+  padding: 1em 1.5em;
+  font-family: "Muller Regular";
+}
+/**END DIGITAL**/
 
-.btn-empezar {
-  background: #fbc411 !important;
+.footer {
+  padding: 7em 0.5em 0em;
 }
-
-.text-small {
-  font-size: 14px;
-}
-.text-color-abaut {
-  color: #275192 !important;
-}
-
-@media only screen and (max-width: 768px) {
-  .navbar {
-    background: #0e2449 !important;
-  }
-}
-
-.scrolling-navbar {
-  -webkit-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
-  -moz-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
-  transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
-}
-
-.proyecto {
-  background: url(../img/proyectos/reel.png) no-repeat top;
-  background-size: 100% 100%;
-  padding-bottom: 6rem;
-  padding-top: 6rem;
-}
-.bg-proyecto {
-  background: #fbc411;
-}
-
-.bg-footer {
-  background: #275192 !important;
-}
-.form-control {
-  background-color: #3d629d !important;
-  border: 1px solid #3d629d !important;
-  color: white !important;
-}
-
-input::placeholder {
-  color: white !important;
-  font-family: "Ciutadella Light";
-}
-textarea::placeholder {
-  color: white !important;
-  font-family: "Ciutadella Light";
-}
-
-.btn-enviar {
-  background: transparent !important;
-  color: #fbc411 !important;
-  border-radius: 10px;
-  border: 2px solid #fbc411 !important;
-}
-
-.border-footer {
-  border-top: 1px solid #3d629d !important;
-}
-
-.border-form {
-  border-right: 1px solid #3d629d;
-  padding-right: 50px;
-}
-
-.btn-ver-video {
-  background: transparent !important;
-  color: white !important;
-  border-radius: 10px;
-  border: 2px solid white !important;
-}
-
-.text-reel {
-  color: #00fe00;
-}
-
-/* Carousel*/
-
-.carousel {
+.social-media {
+  display: grid;
   height: 100%;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  float: right;
+}
+.social-media img {
+  padding-right: 1em;
+}
+.footer-title {
+  font-size: 0.7em;
+  font-family: "Muller Regular";
 }
 
-@media (max-width: 776px) {
-  .carousel {
-    height: 100%;
-  }
+.line-footer {
+  height: 2vh;
+  background: #081937;
 }
 
-.carousel-item,
-.active {
+.footer-padding {
+  padding-top: 3em;
+}
+.content-derechos {
+  display: grid;
   height: 100%;
+  grid-template-rows: auto 0fr 0fr;
+  align-items: end;
+  float: right;
+  font-size: 0.7em;
+  padding-bottom: 1.6em;
 }
 
-.carousel-inner {
+.content-derechos p {
+  margin: 0;
+}
+.line-yellow {
+  height: 1vh;
+  background: #f8c332;
+  max-width: 13%;
+  margin-bottom: 2em;
+}
+.footer-day {
+  font-family: "Muller Bold Italic";
+}
+.footer-copyright {
+  color: #999999;
+  font-family: "Muller Light";
+  font-size: 0.7em;
+}
+/**END-FOOTER**/
+.objetivos {
+}
+.obj-ancho {
+  width: 100%;
+  margin: 0;
+}
+
+.u-reset {
+  padding: 0;
+}
+.u-background {
+  background: #f8c332;
+}
+
+.content-obj-descriptions {
+  display: grid;
   height: 100%;
+  align-items: end;
+  padding: 1.5em 1.5em;
+  grid-template-rows: auto 1fr 0fr;
+  font-family: "Muller Regular";
+  font-size: 0.9em;
+  background: #f2f2f2;
 }
-.pl-7 {
-  padding-left: 7rem !important;
+.obj-descriptions p {
+  margin: 0;
 }
-
-/*.title h2:after {
-  content: "";
-  background: #fbc411;
-  height: 3px;
-  width: 100px;
-  position: absolute;
-  left: 50%;
-  margin-left: -50px;
-  display: flex;
-  margin-top: 12px;
-}*/
-.title-contacto h2:after {
-  content: "";
-  background: #fbc411;
-  height: 3px;
-  width: 90px;
-  position: absolute;
-  left: 3%;
-  margin-left: 0px;
-  display: flex;
-  margin-top: 8px;
-}
-.title-proyecto h2:after {
-  content: "";
-  background: #275192;
-  height: 3px;
-  width: 90px;
-  position: absolute;
-  left: 23%;
-  margin-left: 0px;
-  display: flex;
-  margin-top: 6px;
-}
-.rounded {
-  border-radius: 3% !important;
-}
-.bottom-reset {
-  margin-bottom: 0;
+.content-obj-title {
+  display: grid;
+  height: 100%;
+  padding: 0em 5em;
 }
 
-@media (max-width: 767px) {
-  .border-form {
-    padding-right: 0;
-    border-right: none;
-  }
-  .data-title {
-    font-size: 2.5rem;
-  }
-  .title-contacto h2:after {
-    left: 36%;
-  }
-  .pl-7 {
-    padding-left: 1rem !important;
-  }
-  .ver-video {
-    padding-bottom: 5%;
-  }
-
-  .cd-timeline__date {
-    padding-top: 2rem;
-  }
-  .cd-timeline__container::before {
-    left: 36px !important;
-  }
-  .cd-timeline__block {
-    margin-left: 1em !important;
-  }
-  .cd-timeline__content {
-    margin-top: 3em !important;
-    padding: 0em !important;
-    margin-left: 0em !important;
-  }
-  .flecha-down {
-    right: 45%;
-  }
+.content-obj-title h1 {
+  font-family: "Muller Regular";
+  font-size: 4em;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
-  .pl-7 {
-    padding-left: 2rem !important;
-  }
-  .title-proyecto2 > h2 {
-    text-align: center !important;
-  }
-  .ver-video {
-    text-align: center !important;
-    padding-bottom: 5%;
-  }
-  .border-form {
-    padding-right: 0;
-    border-right: none;
-  }
+@media screen and (min-width: 768px) {
+}
 
-  .cd-timeline__block {
-    margin-left: 1em !important;
+@media screen and (min-width: 1024px) {
+  .digital-title p {
+    font-size: 49px;
   }
-  .cd-timeline__date {
-    padding-top: 2rem;
-    text-align: center;
+  .digital-descriptions {
+    font-size: 1em;
   }
-  .cd-timeline__container::before {
+  .u-padding {
+    padding: 0em 0.5em;
   }
-  .flecha-down {
-    right: 47%;
-  }
-  .btn-content {
-    text-align: center !important;
+  .digital {
+    height: 73vh;
   }
 }

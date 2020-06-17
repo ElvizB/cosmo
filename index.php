@@ -13,9 +13,18 @@ $partes_ruta = array_slice($partes_ruta, 0);
 
 $ruta_elegida = 'vistas/404.php';
 
-if($partes_ruta[0] == 'cossmo.herokuapp.com'){
+if($partes_ruta[0] == 'somos-cosmo'){
   if (count($partes_ruta) == 1){
     $ruta_elegida = 'vistas/home.php';
+  }else if (count($partes_ruta) == 2){
+    switch($partes_ruta[1]){
+      case 'sobre-nosotros':
+        $ruta_elegida = 'vistas/sobre-nosotros.php';
+        break;   
+      case 'proyectos':
+        $ruta_elegida = 'vistas/proyectos.php';
+        break;       
+    }
   }
 }
 

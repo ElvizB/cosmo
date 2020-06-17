@@ -18,8 +18,6 @@
 <script src='https://www.google.com/recaptcha/api.js'></script>
 
 <script type="text/javascript" src="<?php echo RUTA_JS?>loading.js"></script>
-<script type="text/javascript" src="<?php echo RUTA_JS?>smooth.js"></script>
-<script type="text/javascript" src="<?php echo RUTA_JS?>topUp.js"></script>
 <script type="text/javascript" src="<?php echo RUTA_JS?>app.js"></script>
 <script type="text/javascript">
 new WOW().init();

@@ -1,0 +1,139 @@
+.about {
+  padding: 6em 0em;
+}
+
+.content-about img {
+  padding: 1.4em 0em;
+}
+
+.about-descriptions {
+  background: #081937;
+  padding: 4em 0em;
+}
+.content-about-descriptions {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  align-items: center;
+  text-align: center;
+}
+
+.about-items {
+  color: #f8c332;
+  font-size: 0.6em;
+  font-family: "Muller Bold";
+}
+.about-items img {
+  width: 100%;
+}
+.about-items p {
+  margin-bottom: 0.9em;
+}
+
+.teams {
+  padding: 6em 0.5em;
+}
+.team-title {
+  background: var(--darkyellow);
+  font-family: "Muller Bold";
+  font-size: 0.7em;
+  max-width: 50px;
+  padding: 0.1em 0.3em;
+}
+
+.content-about-item {
+  max-width: 324px;
+  margin: auto;
+  height: 324px;
+}
+.wrapper-description {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.proyect-description-name {
+  color: var(--lightyellow);
+  font-family: "Muller Bold";
+}
+
+.proyect-description-cargo {
+  text-align: right;
+}
+
+/*************************/
+
+.content-team {
+  position: relative;
+  overflow: hidden;
+  width: 326px;
+}
+
+.content-team .content-team-img:hover .rectangulo {
+  opacity: 1;
+  visibility: visible;
+}
+
+.rectangulo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(248, 195, 50, 0.8);
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: opacity 0.2s ease 0s;
+  transition: opacity 0.2s ease 0s;
+}
+.content-team:hover .content-team-title {
+  top: 27%;
+  opacity: 1;
+  visibility: visible;
+}
+
+.content-team .content-team-title {
+  position: absolute;
+  left: 0%;
+  top: -50%;
+  color: #fff;
+  width: 100%;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  padding: 0em 2.6em;
+}
+
+.content-team-title p {
+  color: black;
+  font-family: "Muller Regular";
+}
+
+.team-descriptions {
+  padding: 1.5em 0em;
+  max-width: 326px;
+}
+
+.team-user {
+  color: #f7c231;
+  font-family: "Muller Bold";
+}
+.team-user h6 {
+  font-size: 1.3em;
+}
+.team-cargo {
+  font-family: "Muller Regular";
+  text-align: right;
+}
+
+.team-cargo h6 {
+  font-size: 1.3em;
+}
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 1024px) {
+  .content-about {
+    padding: 0em 0em 11em;
+  }
+}

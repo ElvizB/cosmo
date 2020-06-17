@@ -9,9 +9,9 @@
 //https://cossmo.herokuapp.com/
 //http://localhost/cosmo
 
-define("SERVIDOR", "https://cossmo.herokuapp.com/");
-//define("RUTA_NOSOTROS", SERVIDOR."/Nosotros");
-//define("RUTA_PADULTO", SERVIDOR."/programas-de-adultos");
+define("SERVIDOR", "https://somos-cosmo.herokuapp.com/");
+define("RUTA_NOSOTROS", SERVIDOR."/sobre-nosotros");
+define("RUTA_PROYECTOS", SERVIDOR."/proyectos");
 //define("RUTA_CATEGORIA", SERVIDOR."/categoria-2007");
 //define("RUTA_CONTACTO", SERVIDOR."/Contacto");
 //define("RUTA_TOQUE", SERVIDOR."/toque-final");
@@ -19,3 +19,4 @@ define("SERVIDOR", "https://cossmo.herokuapp.com/");
 define("RUTA_CSS", SERVIDOR . "/css/");
 define("RUTA_JS", SERVIDOR . "/js/");
 define("RUTA_IMG", SERVIDOR . "/images/");
+define("RUTA_VIDEO", SERVIDOR . "/video/");

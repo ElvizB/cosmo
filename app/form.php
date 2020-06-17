@@ -1,5 +1,5 @@
 <?php
-/*$nombre         = isset($_POST['nombre'])   ?   $_POST['nombre']    : '';
+$nombre         = isset($_POST['nombre'])   ?   $_POST['nombre']    : '';
 $email          = isset($_POST['email'])    ?   $_POST['email']     : '';
 $celular        = isset($_POST['celular'])  ?   $_POST['celular']   : '';
 $mensaje        = isset($_POST['mensaje'])  ?   $_POST['mensaje']   : '';
@@ -8,8 +8,8 @@ if( $nombre === '' || $email==='' || $celular=== '' || $mensaje==='') {
   echo json_encode('Llena los campos ctm');
 }else{
   echo json_encode('Correcto: <br> Sus Datos son: ');
-}*/
-
+}
+/*
 $nombre         = isset($_POST['nombre'])   ?   $_POST['nombre']    : '';
 $email          = isset($_POST['email'])    ?   $_POST['email']     : '';
 $celular        = isset($_POST['celular'])  ?   $_POST['celular']   : '';
@@ -37,7 +37,7 @@ $headers   .=  "Content-type: text/html; charset=UTF-8\r\n";
 
 $destinatario   = 'contacto@rmgol.com';
 //$asunto         = 'Consultas sobre los programas';
-
+*/
 // Enviar correo
 $sendMail   =   mail($destinatario, $asunto , $contenido, $headers);
 

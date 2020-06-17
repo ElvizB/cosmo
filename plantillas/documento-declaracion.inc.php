@@ -9,7 +9,7 @@
     <meta name="keywords" content="">
     <meta name="author" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link rel="shortcut icon" type="image/x-icon" href="img/ico.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="img/favi_cosmo.png">
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
@@ -21,12 +21,13 @@
 
     <link href="<?php echo RUTA_CSS?>preload/index.css" rel="stylesheet">
     <link href="<?php echo RUTA_CSS?>index.css" rel="stylesheet">
-    <link href="<?php echo RUTA_CSS?>timeline/index.css" rel="stylesheet">
-    <link href="<?php echo RUTA_CSS?>formulario/index.css" rel="stylesheet">
+    <link href="<?php echo RUTA_CSS?>about/index.css" rel="stylesheet">
+    <link href="<?php echo RUTA_CSS?>proyecto/index.css" rel="stylesheet">
+    <link href="<?php echo RUTA_CSS?>contacto/index.css" rel="stylesheet">
 
 </head>
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-Y77WN1V427"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VQLJ3Y188Z"></script>
 <script>
 window.dataLayer = window.dataLayer || [];
 
@@ -34,6 +35,8 @@ function gtag() {
     dataLayer.push(arguments);
 }
 gtag('js', new Date());
+
+gtag('config', 'G-VQLJ3Y188Z');
 </script>
 
 <body class="oculto">

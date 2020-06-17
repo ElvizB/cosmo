@@ -1,0 +1,152 @@
+/**utils**/
+:root {
+  --darkyellow: #f8c332;
+  --lightyellow: #f7c231;
+  font-size: 16px;
+}
+.u-wrapper {
+  width: 100%;
+  max-width: 1024px;
+  margin: auto;
+}
+.u-subtitle h1 {
+  font-size: 28px;
+  font-family: "Muller Regular";
+  margin: 0;
+}
+
+.u-descriptions p {
+  font-family: "Muller Regular";
+  font-size: 0.8em;
+}
+
+.u-title-small {
+  background: var(--darkyellow);
+  font-family: "Muller Bold";
+  font-size: 0.7em;
+  max-width: 150px;
+  padding: 0.1em 0.3em;
+}
+
+.u-subtitle {
+  padding: 1em 0em;
+}
+
+.u-content-padding {
+  padding: 2em 0.5em;
+}
+
+.u-container {
+  padding: 0em 0.5em;
+}
+
+/********************************/
+.proyect {
+  padding: 1em 0.5em;
+}
+.proyect-item {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content-proyect-item {
+  max-width: 324px;
+  margin: auto;
+  height: 324px;
+  background: #e6e6e6;
+}
+.content-proyect-description {
+  max-width: 324px;
+  margin: auto;
+  font-size: 1.3em;
+  font-family: "Muller Regular";
+  padding: 0.5em 0em 1.5em;
+}
+
+/*********************/
+.content-team {
+  position: relative;
+  overflow: hidden;
+  width: 326px;
+}
+
+.content-team .content-team-img:hover .rectangulo {
+  opacity: 1;
+  visibility: visible;
+}
+
+.rectangulo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(248, 195, 50, 0.8);
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: opacity 0.2s ease 0s;
+  transition: opacity 0.2s ease 0s;
+}
+.content-team:hover .content-team-title {
+  top: 27%;
+  opacity: 1;
+  visibility: visible;
+}
+
+.content-team .content-team-title {
+  position: absolute;
+  left: 0%;
+  top: -50%;
+  color: #fff;
+  width: 100%;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  padding: 0em 2.6em;
+}
+
+.container-digital-img {
+  background: url(../../images/proyecto/banner.png) no-repeat top;
+  background-size: cover;
+  height: 60vh;
+}
+.btn-contact-proyect {
+  color: white;
+  background: transparent;
+  border: 2px solid white;
+  padding: 1em 1.5em;
+  font-family: "Muller Regular";
+}
+
+@media screen and (min-width: 768px) {
+  .proyect-grid {
+    display: grid;
+    grid-column-gap: 1em;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .u-content-padding {
+    padding: 8em 0.5em 1.5em;
+  }
+  .u-subtitle h1 {
+    font-size: 81px;
+  }
+  .proyect-grid {
+    display: grid;
+    grid-column-gap: 1em;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .container-digital-img {
+    height: 73vh;
+  }
+  .u-descriptions p {
+    font-size: 1.1em;
+  }
+  .content-proyect-description {
+    font-size: 1.7em;
+  }
+}
