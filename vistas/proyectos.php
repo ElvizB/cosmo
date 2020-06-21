@@ -124,7 +124,7 @@ $titulo = 'Proyectos';
                     </div>
                 </div>
                 <div class="content-proyect-description">
-                    <p>Medición / <br>Optimización</p>
+                    <p>Medición / Optimización</p>
                 </div>
             </div>
 
@@ -535,7 +535,7 @@ $titulo = 'Proyectos';
                     </div>
                 </div>
                 <div class="content-proyect-description">
-                    <p>Investigación y <br>Analisis</p>
+                    <p>Investigación y Analisis</p>
                 </div>
             </div>
 
@@ -597,7 +597,7 @@ $titulo = 'Proyectos';
                     </div>
                 </div>
                 <div class="content-proyect-description">
-                    <p>Gestión <br>Estratégica. </p>
+                    <p>Gestión Estratégica. </p>
                 </div>
             </div>
 

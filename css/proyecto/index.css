@@ -1,9 +1,5 @@
 /**utils**/
-:root {
-  --darkyellow: #f8c332;
-  --lightyellow: #f7c231;
-  font-size: 16px;
-}
+
 .u-wrapper {
   width: 100%;
   max-width: 1024px;
@@ -23,8 +19,8 @@
 .u-title-small {
   background: var(--darkyellow);
   font-family: "Muller Bold";
-  font-size: 0.7em;
-  max-width: 150px;
+  font-size: 12px;
+  max-width: 147px;
   padding: 0.1em 0.3em;
 }
 
@@ -89,7 +85,7 @@
   transition: opacity 0.2s ease 0s;
 }
 .content-team:hover .content-team-title {
-  top: 27%;
+  top: 18%;
   opacity: 1;
   visibility: visible;
 }
@@ -144,9 +140,9 @@
     height: 73vh;
   }
   .u-descriptions p {
-    font-size: 1.1em;
+    font-size: 21px;
   }
   .content-proyect-description {
-    font-size: 1.7em;
+    font-size: 29px;
   }
 }

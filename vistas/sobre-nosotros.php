@@ -34,7 +34,7 @@ $titulo = 'Sobre Nosotros';
 </section>
 
 <section class="about-descriptions">
-    <div class="container">
+    <div class="u-wrapper">
         <div class="content-about-descriptions">
             <div class="about-items">
                 <p>CREATIVIDAD</p>
@@ -45,7 +45,7 @@ $titulo = 'Sobre Nosotros';
                 <p>VISIÓN</p>
                 <img class="img-fluid" src="<?php echo RUTA_IMG?>about/vision.png" alt="vision" draggable="false" />
             </div>
-            <div class="about-items">
+            <div class="about-items-pro">
                 <img class="" src="<?php echo RUTA_IMG?>about/pro.png" alt="pro" draggable="false" />
             </div>
             <div class="about-items">
@@ -54,7 +54,7 @@ $titulo = 'Sobre Nosotros';
                     draggable="false" />
             </div>
             <div class="about-items">
-                <p>Estrategia</p>
+                <p>ESTRATEGIA</p>
                 <img class="img-fluid" src="<?php echo RUTA_IMG?>about/estrategia.png" alt="estrategia"
                     draggable="false" />
             </div>

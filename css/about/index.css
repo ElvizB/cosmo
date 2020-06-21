@@ -3,40 +3,39 @@
 }
 
 .content-about img {
-  padding: 1.4em 0em;
+  padding: 1.4em 0em 2em;
 }
 
 .about-descriptions {
-  background: #081937;
-  padding: 4em 0em;
+  background: var(--dark);
+  padding: 3em 0.5em 1.5em;
 }
 .content-about-descriptions {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  align-items: center;
   text-align: center;
 }
 
 .about-items {
   color: #f8c332;
-  font-size: 0.6em;
+  font-size: 15px;
   font-family: "Muller Bold";
+  padding: 1em 0em;
 }
-.about-items img {
-  width: 100%;
+.about-items-pro img {
+  width: 200px;
+  padding: 1em 0em;
 }
 .about-items p {
   margin-bottom: 0.9em;
 }
 
 .teams {
-  padding: 6em 0.5em;
+  padding: 6em 0.5em 0em;
 }
 .team-title {
   background: var(--darkyellow);
   font-family: "Muller Bold";
-  font-size: 0.7em;
-  max-width: 50px;
+  font-size: 12px;
+  max-width: 49px;
   padding: 0.1em 0.3em;
 }
 
@@ -48,6 +47,7 @@
 .wrapper-description {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  font-size: 29px;
 }
 
 .proyect-description-name {
@@ -106,6 +106,7 @@
 .content-team-title p {
   color: black;
   font-family: "Muller Regular";
+  font-size: 16px;
 }
 
 .team-descriptions {
@@ -135,5 +136,13 @@
 @media screen and (min-width: 1024px) {
   .content-about {
     padding: 0em 0em 11em;
+  }
+  .about-items-pro img {
+    width: 420px;
+  }
+  .content-about-descriptions {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: center;
   }
 }

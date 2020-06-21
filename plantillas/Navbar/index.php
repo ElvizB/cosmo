@@ -1,5 +1,5 @@
-<header class="u-padding">
-    <div class="banner-inicio">
+<header class="">
+    <div class="">
         <nav class=" navbar navbar-expand-lg fixed-top">
 
             <div class="container">
@@ -30,17 +30,8 @@
                         </li>
                     </ul>
                 </div>
-
-                </hdiv>
-        </nav>
-        <div class="container content-video">
-            <div class="video-descriptions">
-                <p>Especialidad</p>
-                <h1>Gestión en</h1>
-                <h1>Contenidos Digitales.</h1>
-                <button class="btn-presentacion"><img src="<?php echo RUTA_IMG?>play.png"
-                        class="img-fluid wow pulse infinite pr-2" />Ver presentación</button>
             </div>
-        </div>
+        </nav>
+
     </div>
 </header>

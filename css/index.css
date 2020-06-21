@@ -1,3 +1,19 @@
+:root {
+  --darkyellow: #f8c332;
+  --lightyellow: #f7c231;
+  --dark: #081937;
+  font-size: 16px;
+}
+
+body::-webkit-scrollbar {
+  width: 12px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--darkyellow);
+  border-radius: 10px;
+}
+
 @font-face {
   font-family: "Muller Bold";
   src: url("../fonts/MullerBold.ttf");
@@ -31,10 +47,13 @@
 
 .video-descriptions {
   color: white;
+  position: absolute;
+  top: 0;
+  height: 100%;
 }
 .video-descriptions p {
   margin: 0;
-  font-size: 0.7em;
+  font-size: 15px;
   padding-bottom: 0.5em;
   font-family: "Muller Regular";
 }
@@ -43,42 +62,45 @@
   margin: 0;
   padding: 0;
   font-family: "Muller Bold";
-  font-size: 3.5em;
+  font-size: 70px;
 }
 .btn-presentacion {
-  padding: 0.6em 1em;
+  padding: 0.7em 0em;
   background: #ffffff;
   font-family: "Muller Regular";
-  font-size: 0.7em;
+  font-size: 14px;
   margin-top: 2em;
+  border: none;
+  width: 175px;
+}
+
+.video-back {
+  width: 100%;
 }
 
 /****SERVICES*******/
 .service {
-  padding: 10em 0em;
-}
-
-.content-service {
-  margin: auto;
-  max-width: 800px;
-  padding: 0.5em;
+  padding: 5em 0.5em;
 }
 
 .content-service p {
-  font-size: 0.5em;
+  font-size: 12px;
   font-family: "Muller Bold";
   background: #ffd540;
-  max-width: 8%;
+  max-width: 75px;
   padding: 0em 0.4em;
+  margin-bottom: 1em;
 }
 
 .list-service {
   list-style: none;
+  padding: 0em 0em 0em 0em;
 }
 
 .list-service li {
-  font-size: 2.5em;
+  font-size: 1.5em;
   font-family: "Muller Regular";
+  padding: 0.2em 0em;
 }
 .content-service .list-service .item {
   position: relative;
@@ -102,50 +124,53 @@
 
 /*****PROCESOS******/
 .procesos {
-  padding: 3em 0em;
-  background: #f8c332;
+  padding: 2em 0em 2em;
+  background: var(--darkyellow);
 }
 .content-procesos {
-  margin: auto;
-  max-width: 800px;
-  padding: 0.5em;
   text-align: center;
 }
 .content-procesos h1 {
   font-family: "Muller Bold";
+  font-size: 1.4em;
 }
 
 .content-procesos p {
   font-family: "Muller Light";
+  font-size: 0.7em;
 }
 
 .content-procesos h2 {
   font-family: "Muller Light";
   color: white;
+  font-size: 1.4em;
 }
 
 .proceso-list {
-  padding: 5em 0em;
+  padding: 3em 0.5em 3em;
 }
 
 .proceso-title p {
-  background: #f8c332;
-  max-width: 200px;
+  background: var(--darkyellow);
+  max-width: 100%;
+  text-align: center;
   padding-left: 0.2em;
-  font-size: 0.7em;
+  font-size: 12px;
   font-family: "Muller Bold";
 }
+
 .proceso-descriptions {
   padding-left: 1em;
 }
 .proceso-descriptions h1 {
   color: #f8c332;
-  font-size: 4em;
+  font-size: 4.3em;
   font-family: "Muller Bold";
+  text-align: center;
 }
 .proceso-descriptions li {
   list-style: none;
-  font-size: 0.7em;
+  font-size: 12px;
   font-family: "Muller Regular";
 }
 
@@ -153,25 +178,24 @@
 
 /**SECTION PARTNER**/
 .partner {
-  padding: 5em 0em;
+  padding: 3em 0.5em 3em;
 }
 
-.img-partner img {
-  padding-right: 2em;
-  padding-top: 1em;
-}
 .partner-title {
   background: #f8c332;
   font-family: "Muller Bold";
-  font-size: 0.7em;
-  max-width: 13%;
+  font-size: 12px;
+  max-width: 131px;
   margin: 0;
 }
 
 .partner-subtitle {
-  font-size: 0.7em;
-  padding-top: 0.6em;
+  font-size: 12px;
+  padding: 1em 0em 1em;
   font-family: "Muller Regular";
+}
+.img-partner {
+  text-align: center;
 }
 /**END-PARTNER**/
 
@@ -189,7 +213,7 @@
   display: grid;
   height: 100%;
   align-content: center;
-  padding: 0em 1em;
+  padding: 0em 0.5em;
 }
 
 .digital-title p {
@@ -207,104 +231,63 @@
 .btn-contact {
   background: transparent;
   border: 2px solid;
-  padding: 1em 1.5em;
+  padding: 1.2em 0em;
   font-family: "Muller Regular";
+  width: 185px;
+  font-size: 18px;
 }
 /**END DIGITAL**/
 
-.footer {
-  padding: 7em 0.5em 0em;
-}
-.social-media {
-  display: grid;
-  height: 100%;
-  grid-template-columns: 1fr 1fr 1fr;
-  align-items: center;
-  float: right;
-}
-.social-media img {
-  padding-right: 1em;
-}
-.footer-title {
-  font-size: 0.7em;
-  font-family: "Muller Regular";
-}
-
-.line-footer {
-  height: 2vh;
-  background: #081937;
-}
-
-.footer-padding {
-  padding-top: 3em;
-}
-.content-derechos {
-  display: grid;
-  height: 100%;
-  grid-template-rows: auto 0fr 0fr;
-  align-items: end;
-  float: right;
-  font-size: 0.7em;
-  padding-bottom: 1.6em;
-}
-
-.content-derechos p {
-  margin: 0;
-}
-.line-yellow {
-  height: 1vh;
-  background: #f8c332;
-  max-width: 13%;
-  margin-bottom: 2em;
-}
-.footer-day {
-  font-family: "Muller Bold Italic";
-}
-.footer-copyright {
-  color: #999999;
-  font-family: "Muller Light";
-  font-size: 0.7em;
-}
-/**END-FOOTER**/
-.objetivos {
-}
-.obj-ancho {
-  width: 100%;
-  margin: 0;
-}
-
-.u-reset {
-  padding: 0;
-}
 .u-background {
-  background: #f8c332;
+  max-width: 700px;
+  margin: auto;
+  display: flex;
+  height: 84%;
+  align-items: flex-end;
 }
 
-.content-obj-descriptions {
+.obj-grid img {
+  padding-bottom: 1em;
+}
+.obj-content-description {
+  font-size: 14px;
   display: grid;
-  height: 100%;
-  align-items: end;
-  padding: 1.5em 1.5em;
-  grid-template-rows: auto 1fr 0fr;
+  grid-template-rows: 22% auto;
   font-family: "Muller Regular";
-  font-size: 0.9em;
-  background: #f2f2f2;
+  align-items: end;
+  padding: 20px 20px 20px;
 }
-.obj-descriptions p {
+
+.obj-content-description p {
   margin: 0;
-}
-.content-obj-title {
-  display: grid;
-  height: 100%;
-  padding: 0em 5em;
 }
 
 .content-obj-title h1 {
   font-family: "Muller Regular";
-  font-size: 4em;
+}
+.obj-items img {
+  width: 100%;
 }
 
 @media screen and (min-width: 768px) {
+  .procesos-grid {
+    display: grid;
+    grid-column-gap: 1em;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .partner-grid {
+    display: grid;
+    grid-column-gap: 1em;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .content-service p {
+    margin-bottom: 5em;
+  }
+  .list-service {
+    list-style: none;
+    padding: 0em 0em 0em 4.5em;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -312,12 +295,116 @@
     font-size: 49px;
   }
   .digital-descriptions {
-    font-size: 1em;
+    font-size: 13px;
   }
   .u-padding {
-    padding: 0em 0.5em;
+    padding: 20px 20px 0px;
   }
   .digital {
     height: 73vh;
+  }
+  .service {
+    padding: 14em 20px;
+  }
+  .list-service li {
+    font-size: 3.2em;
+  }
+  .content-procesos h1 {
+    font-size: 50px;
+  }
+  .content-procesos p {
+    font-size: 23px;
+  }
+  .procesos {
+    padding: 5em 0em 3.5em;
+  }
+  .content-procesos h2 {
+    font-size: 47px;
+  }
+  .proceso-list {
+    padding: 5em 0.5em 11em;
+  }
+  .proceso-title p {
+    max-width: 148px;
+    text-align: left;
+  }
+  .proceso-descriptions h1 {
+    text-align: left;
+  }
+  .procesos-grid {
+    display: grid;
+    grid-column-gap: 1em;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .partner {
+    padding: 15em 0.5em 17em;
+  }
+  .img-partner {
+    text-align: center;
+  }
+  .partner-grid {
+    display: grid;
+    grid-column-gap: 1em;
+    grid-template-columns: repeat(6, 1fr);
+  }
+  .content-digital {
+    padding: 0em 0em;
+  }
+  .content-obj-title h1 {
+  }
+  .content-service p {
+    margin-bottom: 5em;
+  }
+  .list-service {
+    list-style: none;
+    padding: 0em 0em 0em 4.5em;
+  }
+  .obj-grid img {
+    padding-bottom: 0em;
+  }
+  .obj-content-description {
+    font-size: 13px;
+  }
+  .obj-grid {
+    display: grid;
+    grid-template-areas:
+      "header header header header  "
+      "main main  menu menu "
+      "footer footer  menu menu ";
+  }
+  .obj-grid > .item2 {
+    background: var(--darkyellow);
+  }
+  .item1 {
+    grid-area: header;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .item2 {
+    grid-area: menu;
+  }
+  .item3 {
+    grid-area: main;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .item5 {
+    grid-area: footer;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .obj-content-description {
+    font-size: 18px;
+    padding: 21px 20px 20px;
+  }
+}
+
+@media screen and (min-width: 1740px) {
+  .obj-content-description {
+    font-size: 22px;
+    padding: 38px 38px 20px;
   }
 }

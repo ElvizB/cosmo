@@ -20,10 +20,13 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.8/css/mdb.min.css" rel="stylesheet">
 
     <link href="<?php echo RUTA_CSS?>preload/index.css" rel="stylesheet">
+    <link href="<?php echo RUTA_CSS?>fuentes/index.css" rel="stylesheet">
     <link href="<?php echo RUTA_CSS?>index.css" rel="stylesheet">
     <link href="<?php echo RUTA_CSS?>about/index.css" rel="stylesheet">
     <link href="<?php echo RUTA_CSS?>proyecto/index.css" rel="stylesheet">
     <link href="<?php echo RUTA_CSS?>contacto/index.css" rel="stylesheet">
+    <link href="<?php echo RUTA_CSS?>footer/index.css" rel="stylesheet">
+
 
 </head>
 <!-- Global site tag (gtag.js) - Google Analytics -->

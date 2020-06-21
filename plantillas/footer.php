@@ -1,13 +1,10 @@
-<footer class="footer">
-    <div class="u-wrapper">
-        <div class="row ">
-            <div class="col-lg-12">
-                <img class="img-fluid" src="<?php echo RUTA_IMG?>footer/cosmo.png" alt="cosmo" />
+<footer>
+    <div class="footer">
+        <div class="u-wrapper">
+            <div class="footer-logo">
+                <img class="img-fluid" src="<?php echo RUTA_IMG?>footer/cosmo.png" alt="cosmo">
             </div>
-        </div>
-
-        <div class="row footer-padding">
-            <div class="col-lg-3">
+            <div class="footer-grid">
                 <div class="footer-title">
                     <div class="line-yellow"></div>
                     <div>
@@ -21,8 +18,6 @@
                         </p>
                     </div>
                 </div>
-            </div>
-            <div class="col-lg-3">
                 <div class="footer-title">
                     <div class="line-yellow"></div>
                     <div>
@@ -37,18 +32,19 @@
                         </p>
                     </div>
                 </div>
-            </div>
-            <div class="col-lg-6">
                 <div class="social-media">
-                    <img class="img-fluid" src="<?php echo RUTA_IMG?>footer/wp.png" alt="wp" />
-                    <img class="img-fluid" src="<?php echo RUTA_IMG?>footer/fb.png" alt="facebook" />
-                    <img class="img-fluid" src="<?php echo RUTA_IMG?>footer/ln.png" alt="ln" />
+                    <div>
+                        <img class="img-fluid" src="<?php echo RUTA_IMG?>footer/wp.png" alt="wp" />
+                    </div>
+                    <div>
+                        <img class="img-fluid" src="<?php echo RUTA_IMG?>footer/fb.png" alt="facebook" />
+                    </div>
+                    <div>
+                        <img class="img-fluid" src="<?php echo RUTA_IMG?>footer/ln.png" alt="ln" />
+                    </div>
                 </div>
             </div>
-        </div>
-
-        <div class="row footer-padding pb-5">
-            <div class="col-lg-7">
+            <div class="footer-grid-secundary">
                 <div class="footer-title">
                     <p>Agencia digita en Lima Perú.</p>
                     <p>En la agencia digital COSMO, creamos soluciones digitales inteligentes para empresas,
@@ -58,8 +54,6 @@
                         producir su contenido, texto y móvil, y podemos ocuparnos de su presencia en las redes sociales.
                         ¿Suena bien? ¡Juntos haremos que su próximo proyecto digital sea completamente maravilloso!</p>
                 </div>
-            </div>
-            <div class="col-lg-5">
                 <div class="content-derechos">
                     <p class="footer-day"> ¡Que tengas un día maravilloso!</p>
                     <p class="footer-copyright"> © Copyright y todos los derechos reservados 2020</p>
@@ -67,7 +61,7 @@
             </div>
         </div>
     </div>
-</footer>
-<div class="line-footer ">
+    <div class="line-footer">
 
-</div>
+    </div>
+</footer>
