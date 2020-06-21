@@ -83,9 +83,9 @@ $titulo = 'Inicio';
                     inteligente donde los suscriptores puedan comparar fácilmente las estadísticas entre ...
                 </p>
             </div>
-            <ddiv class="obj-items">
+            <div class="obj-items">
                 <img src="<?php echo RUTA_IMG?>objetivos/obj-2.png" class="" draggable="false" />
-            </ddiv>
+            </div>
             <div class="obj-content-description">
                 <div class="line-yellow"></div>
                 <p>
@@ -94,17 +94,8 @@ $titulo = 'Inicio';
                 </p>
             </div>
         </div>
-        <div class="item2">
-            <div class="u-background">
-                <div class="content-obj-title">
-                    <h1>Entonces<br>
-                        alcanzamos tus <br>
-                        objetivos digitales</h1>
-                </div>
-            </div>
 
-        </div>
-        <div class="item3">
+        <div class="item2">
             <div class="obj-content-description">
                 <div class="line-yellow"></div>
                 <p>
@@ -116,9 +107,30 @@ $titulo = 'Inicio';
             <div class=" obj-items">
                 <img src="<?php echo RUTA_IMG?>objetivos/obj-3.png" class="" draggable="false" />
             </div>
+            <div class="u-backyellow"></div>
+            <div class="u-backyellow"></div>
 
         </div>
-        <div class="item5">
+
+        <div class="item2-movil">
+            <div class=" obj-items">
+                <img src="<?php echo RUTA_IMG?>objetivos/obj-3.png" class="" draggable="false" />
+            </div>
+            <div class="obj-content-description">
+                <div class="line-yellow"></div>
+                <p>
+                    Nuevo Sulky. Para cualquiera que ama el trote. Proyecto emocionante, desafiante y muy divertido
+                    donde realmente pudimos mostrar nuestro conocimiento en WordPress y administrar API. La primera
+                    parte del proyecto es en vivo. Ver más del caso...
+                </p>
+            </div>
+
+            <div class="u-backyellow"></div>
+            <div class="u-backyellow"></div>
+
+        </div>
+
+        <div class="item3">
             <div class=" obj-items">
                 <img src="<?php echo RUTA_IMG?>objetivos/obj-4.png" class="" draggable="false" />
             </div>
@@ -130,8 +142,22 @@ $titulo = 'Inicio';
                     # agencia digital # agencia web #lovedig ...
                 </p>
             </div>
-        </div>
+            <div class="u-backyellow">
+                <div class="content-obj-title">
+                    <h1>Entonces
+                        alcanzamos tus
+                        objetivos digitales</h1>
+                </div>
+            </div>
 
+        </div>
+        <div class="u-backyellow-movil">
+            <div class="content-obj-title">
+                <h1>Entonces
+                    alcanzamos tus
+                    objetivos digitales</h1>
+            </div>
+        </div>
     </div>
 </section>
 
