@@ -4,7 +4,7 @@
 //https://cossmo.herokuapp.com/
 //http://localhost/cosmo
 
-define("SERVIDOR", "https://somos-cosmo.herokuapp.com/");
+define("SERVIDOR", "https://cosmosomos.herokuapp.com/");
 define("RUTA_NOSOTROS", SERVIDOR."sobre-nosotros");
 define("RUTA_PROYECTOS", SERVIDOR."proyectos");
 
