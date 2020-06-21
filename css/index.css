@@ -197,6 +197,19 @@ body::-webkit-scrollbar-thumb {
 .img-partner {
   text-align: center;
 }
+
+.img-partner img {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.img-partner:hover img {
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+}
+
 /**END-PARTNER**/
 
 /**SECTION DIGITAL**/
