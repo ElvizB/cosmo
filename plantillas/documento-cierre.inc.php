@@ -20,6 +20,19 @@
 <script type="text/javascript" src="<?php echo RUTA_JS?>loading.js"></script>
 <script type="text/javascript" src="<?php echo RUTA_JS?>app.js"></script>
 <script type="text/javascript">
+var lastScrollTop = 0;
+navbar = document.getElementById("navbar");
+window.addEventListener("scroll", function() {
+    var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    if (scrollTop > lastScrollTop) {
+        navbar.style.top = "-100px";
+        navbar.style.background = "transparent";
+    } else {
+        navbar.style.top = "0";
+        navbar.style.background = "#1B2036";
+    }
+    lastScrollTop = scrollTop;
+})
 new WOW().init();
 </script>
 </body>

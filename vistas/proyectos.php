@@ -23,6 +23,7 @@ $titulo = 'Proyectos';
         </div>
     </div>
 </section>
+
 <section class="proyect">
     <div class="u-wrapper">
         <div class="proyect-grid">
@@ -31,9 +32,10 @@ $titulo = 'Proyectos';
                     <div class="content-team-img proyect-item">
                         <div class="rectangulo"></div>
                         <div class="content-team-title">
-                            <p>Posición actual, entorno externo, grupo objetivo y tendencia. Le damos un análisis claro
-                                para
-                                un proyecto exitoso.</p>
+                            <p>
+                                Posición actual, entorno externo, grupo objetivo y tendencia.<br>
+                                Le damos un análisis claro para un proyecto exitoso.
+                            </p>
                         </div>
                         <img src="<?php echo RUTA_IMG?>proyecto/produccion/p-1.png" alt="" draggable="false">
                     </div>
@@ -48,9 +50,7 @@ $titulo = 'Proyectos';
                     <div class="content-team-img proyect-item">
                         <div class="rectangulo"></div>
                         <div class="content-team-title">
-                            <p>Posición actual, entorno externo, grupo objetivo y tendencia. Le damos un análisis claro
-                                para
-                                un proyecto exitoso.</p>
+                            <p>Tenemos los métodos para concretar conjuntamente cualquier proyecto digital.</p>
                         </div>
                         <img src="<?php echo RUTA_IMG?>proyecto/produccion/p-2.png" alt="" draggable="false">
                     </div>
@@ -65,9 +65,8 @@ $titulo = 'Proyectos';
                     <div class="content-team-img proyect-item">
                         <div class="rectangulo"></div>
                         <div class="content-team-title">
-                            <p>Posición actual, entorno externo, grupo objetivo y tendencia. Le damos un análisis claro
-                                para
-                                un proyecto exitoso.</p>
+                            <p>Mapeamos grupos objetivos y detectamos sus necesidades, desafíos y deseos.
+                            </p>
                         </div>
                         <img src="<?php echo RUTA_IMG?>proyecto/produccion/p-3.png" alt="" draggable="false">
                     </div>
@@ -82,9 +81,9 @@ $titulo = 'Proyectos';
                     <div class="content-team-img proyect-item">
                         <div class="rectangulo"></div>
                         <div class="content-team-title">
-                            <p>Posición actual, entorno externo, grupo objetivo y tendencia. Le damos un análisis claro
-                                para
-                                un proyecto exitoso.</p>
+                            <p>
+                                Establecemos un plan para su presencia, estrategia y negocio digital o empresa.
+                            </p>
                         </div>
                         <img src="<?php echo RUTA_IMG?>proyecto/produccion/p-4.png" alt="" draggable="false">
                     </div>
@@ -99,9 +98,10 @@ $titulo = 'Proyectos';
                     <div class="content-team-img proyect-item">
                         <div class="rectangulo"></div>
                         <div class="content-team-title">
-                            <p>Posición actual, entorno externo, grupo objetivo y tendencia. Le damos un análisis claro
-                                para
-                                un proyecto exitoso.</p>
+                            <p>
+                                Juntos identificamos sus cifras clave y puntos de medición para medir y analizar la
+                                conversión y efectividad.
+                            </p>
                         </div>
                         <img src="<?php echo RUTA_IMG?>proyecto/produccion/p-5.png" alt="" draggable="false">
                     </div>
@@ -116,9 +116,9 @@ $titulo = 'Proyectos';
                     <div class="content-team-img proyect-item">
                         <div class="rectangulo"></div>
                         <div class="content-team-title">
-                            <p>Posición actual, entorno externo, grupo objetivo y tendencia. Le damos un análisis claro
-                                para
-                                un proyecto exitoso.</p>
+                            <p>
+                                Medimos, activamos y optimizamos su contenido continuamente en todos los canales.
+                            </p>
                         </div>
                         <img src="<?php echo RUTA_IMG?>proyecto/produccion/p-6.png" alt="" draggable="false">
                     </div>

@@ -30,6 +30,9 @@ $titulo = 'Inicio';
 <section class="proceso-list">
     <div class="u-wrapper">
         <div class="procesos-grid">
+            <div class="title-hide-why">
+                <h2>¿Cómo lo hacemos?</h2>
+            </div>
             <div class="procesos-item-grid">
                 <div class="proceso-title">
                     <p>ANÁLISIS_</p>

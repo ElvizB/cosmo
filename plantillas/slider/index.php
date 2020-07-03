@@ -1,9 +1,9 @@
 <!--.Carousel Wrapper-->
-<div class="u-padding">
-    <div class="carousel-inner">
+<div class="">
+    <div class="carousel-inner height-video">
         <div class="view">
             <video class="video-back" autoplay loop muted>
-                <source src="<?php echo RUTA_VIDEO?>inicio.mp4" type="video/mp4">
+                <source src="<?php echo RUTA_VIDEO?>video2.mp4" type="video/mp4">
             </video>
         </div>
         <div class="u-wrapper content-video">

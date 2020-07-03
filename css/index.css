@@ -2,6 +2,7 @@
   --darkyellow: #f8c332;
   --lightyellow: #f7c231;
   --dark: #081937;
+  --white: #fff;
   font-size: 16px;
 }
 
@@ -13,7 +14,6 @@ body::-webkit-scrollbar-thumb {
   background: var(--darkyellow);
   border-radius: 10px;
 }
-
 
 @font-face {
   font-family: "Muller Bold";
@@ -51,7 +51,7 @@ body::-webkit-scrollbar-thumb {
   position: absolute;
   top: 0;
   height: 100%;
-  padding: 0em 0em 0em 0.5em;
+  padding: 0em 0em 0em 2.5em;
 }
 .video-descriptions p {
   margin: 0;
@@ -86,17 +86,19 @@ body::-webkit-scrollbar-thumb {
 }
 
 .content-service p {
-  font-size: 12px;
+  font-size: 16px;
   font-family: "Muller Bold";
   background: #ffd540;
-  max-width: 75px;
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  max-width: 100px;
   padding: 0em 0.4em;
-  margin-bottom: 1em;
 }
 
 .list-service {
   list-style: none;
-  padding: 0em 0em 0em 0em;
+  padding: 2em 0em 0em 0em;
 }
 
 .list-service li {
@@ -106,7 +108,7 @@ body::-webkit-scrollbar-thumb {
 }
 .content-service .list-service .item {
   position: relative;
-  display: table;
+  text-align: center;
 }
 .content-service .list-service .item:hover::before {
   width: 100%;
@@ -126,7 +128,7 @@ body::-webkit-scrollbar-thumb {
 
 /*****PROCESOS******/
 .procesos {
-  padding: 2em 0em 2em;
+  padding: 2em 1em 2em;
   background: var(--darkyellow);
 }
 .content-procesos {
@@ -146,19 +148,21 @@ body::-webkit-scrollbar-thumb {
   font-family: "Muller Light";
   color: white;
   font-size: 1.4em;
+  display: none;
 }
 
 .proceso-list {
-  padding: 3em 0.5em 3em;
+  padding: 2em 0.5em 3em;
 }
 
 .proceso-title p {
   background: var(--darkyellow);
-  max-width: 100%;
   text-align: center;
   padding-left: 0.2em;
   font-size: 12px;
   font-family: "Muller Bold";
+  margin: auto;
+  max-width: 100px;
 }
 
 .proceso-descriptions {
@@ -186,15 +190,17 @@ body::-webkit-scrollbar-thumb {
 .partner-title {
   background: #f8c332;
   font-family: "Muller Bold";
-  font-size: 12px;
-  max-width: 131px;
-  margin: 0;
+  font-size: 16px;
+  max-width: 185px;
+  margin: auto;
+  text-align: center;
 }
 
 .partner-subtitle {
-  font-size: 12px;
+  font-size: 16px;
   padding: 1em 0em 1em;
   font-family: "Muller Regular";
+  text-align: center;
 }
 .img-partner {
   text-align: center;
@@ -228,7 +234,7 @@ body::-webkit-scrollbar-thumb {
   display: grid;
   height: 100%;
   align-content: center;
-  padding: 0em 0.5em;
+  padding: 0em 1.5em;
 }
 
 .digital-title p {
@@ -295,7 +301,7 @@ body::-webkit-scrollbar-thumb {
   display: grid;
   margin: auto;
   max-width: 389px;
-  padding: 2em 0.5em;
+  padding: 2em 1em;
 }
 .item2 {
   display: none;
@@ -304,12 +310,34 @@ body::-webkit-scrollbar-thumb {
 .u-backyellow-movil {
   display: none;
 }
+.title-hide-why {
+  text-align: center;
+  padding: 0px 0px 15px;
+}
+
+.title-hide-why h2 {
+  color: rgb(27, 32, 54);
+  font-family: "Muller Light";
+  font-size: 30px;
+}
+
+.img-partner {
+  margin: 0em 0em 2em 0em;
+}
 
 @media screen and (min-width: 768px) {
+  .proceso-title p {
+    max-width: 148px;
+    text-align: left;
+    margin: initial;
+  }
+  .title-hide-why {
+    display: none;
+  }
   .procesos-grid {
     display: grid;
     grid-column-gap: 1em;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 
   .partner-grid {
@@ -318,11 +346,10 @@ body::-webkit-scrollbar-thumb {
     grid-template-columns: repeat(2, 1fr);
   }
   .content-service p {
-    margin-bottom: 5em;
   }
   .list-service {
     list-style: none;
-    padding: 0em 0em 0em 4.5em;
+    padding: 5em 0em 0em 0em;
   }
   .item1 {
     display: grid;
@@ -352,14 +379,37 @@ body::-webkit-scrollbar-thumb {
   .content-obj-title h1 {
     font-size: 3em;
   }
+  .content-service .list-service .item {
+    text-align: center;
+  }
+  .list-service li {
+    font-size: 2.8em;
+  }
+  .content-procesos h2 {
+    display: block;
+  }
 }
 
 @media screen and (min-width: 1070px) {
+  .partner-title {
+    margin: initial;
+  }
+  .partner-subtitle {
+    text-align: left;
+  }
+  .title-hide-why {
+    display: none;
+  }
+  .content-service .list-service .item {
+    position: relative;
+    display: table;
+    text-align: center;
+  }
   .digital-title p {
     font-size: 49px;
   }
   .digital-descriptions {
-    font-size: 13px;
+    font-size: 16px;
   }
   .u-padding {
     padding: 20px 20px 0px;
@@ -384,6 +434,7 @@ body::-webkit-scrollbar-thumb {
   }
   .content-procesos h2 {
     font-size: 47px;
+    display: block;
   }
   .proceso-list {
     padding: 5em 0.5em 11em;
@@ -391,6 +442,7 @@ body::-webkit-scrollbar-thumb {
   .proceso-title p {
     max-width: 148px;
     text-align: left;
+    margin: initial;
   }
   .proceso-descriptions h1 {
     text-align: left;
@@ -416,10 +468,11 @@ body::-webkit-scrollbar-thumb {
   }
   .content-service p {
     margin-bottom: 5em;
+    margin: initial;
   }
   .list-service {
     list-style: none;
-    padding: 0em 0em 0em 4.5em;
+    padding: 5em 0em 0em 4.5em;
   }
   .obj-grid img {
     padding-bottom: 0em;

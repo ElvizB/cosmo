@@ -1,0 +1,52 @@
+.height-video {
+  height: 100vh;
+}
+.header-princ {
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  background: black;
+  z-index: 2;
+  margin: 20px 0px 0px 0px;
+  transition: 0.5s;
+}
+.contenedor-navbar {
+  display: flex;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-bar-principal {
+  position: fixed;
+  top: 0;
+  background: transparent;
+  width: 100%;
+  height: 80px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.5s;
+  z-index: 2;
+  /* margin: 20px 0px 0px 0px;*/
+}
+.nav-link-principal {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-link-principal li {
+  list-style: none;
+}
+
+.nav-link-principal li a {
+  color: var(--white);
+  padding: 0 20px;
+  font-size: 12px;
+  text-decoration: none;
+  font-family: "Muller Regular";
+}
+.nav-link-principal li a:hover {
+  color: var(--lightyellow);
+}

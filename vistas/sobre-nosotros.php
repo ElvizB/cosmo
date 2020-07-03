@@ -13,7 +13,7 @@ $titulo = 'Sobre Nosotros';
             <h1>Un equipo creativo<br>
                 Para tu empresa</h1>
         </div>
-        <img class="img-fluid" src="<?php echo RUTA_IMG?>footer/cosmo.png" alt="cosmo" draggable="false" />
+
         <div class="u-descriptions">
             <p>
                 Un equipo de profesionales especializados en la gestión y desarrollo de productos digitales y

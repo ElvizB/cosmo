@@ -1,9 +1,10 @@
 /*******footer******/
 .footer {
-  padding: 4em 0.5em 0em;
+  padding: 4em 1.5em 0em;
 }
 .footer-logo {
   padding: 0em 0em 4em;
+  text-align: center;
 }
 .footer-grid {
   padding: 0em 0em 2em;
@@ -19,6 +20,7 @@
 .footer-title {
   font-size: 13px;
   font-family: "Muller Regular";
+  text-align: center;
 }
 
 .line-footer {
@@ -37,6 +39,7 @@
   align-items: end;
   text-align: right;
   padding-bottom: 1.2em;
+  text-align: center;
 }
 
 .content-derechos p {
@@ -45,7 +48,7 @@
 .line-yellow {
   height: 1vh;
   background: #f8c332;
-  max-width: 29px;
+  max-width: 100%;
   margin-bottom: 2em;
 }
 .footer-day {
@@ -59,6 +62,9 @@
 }
 
 @media screen and (min-width: 768px) {
+  .footer-logo {
+    text-align: left;
+  }
   .footer-grid {
     display: grid;
     grid-column-gap: 1em;
@@ -75,14 +81,33 @@
     grid-column-gap: 1em;
     grid-template-columns: repeat(2, 1fr);
   }
+  .footer-title {
+    text-align: left;
+  }
+  .content-derechos {
+    text-align: right;
+  }
+  .line-yellow {
+    max-width: 29px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
+  .content-derechos {
+    text-align: right;
+  }
+  .footer-title {
+    text-align: left;
+  }
+  .line-yellow {
+    max-width: 29px;
+  }
   .footer {
     padding: 10em 0.5em 0em;
   }
   .footer-logo {
     padding: 0em 0em 11em;
+    text-align: left;
   }
   .footer-grid {
     display: grid;

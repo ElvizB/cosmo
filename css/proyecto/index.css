@@ -19,9 +19,11 @@
 .u-title-small {
   background: var(--darkyellow);
   font-family: "Muller Bold";
-  font-size: 12px;
-  max-width: 147px;
+  font-size: 16px;
+  max-width: 200px;
   padding: 0.1em 0.3em;
+  text-align: center;
+  margin: auto;
 }
 
 .u-subtitle {
@@ -29,11 +31,11 @@
 }
 
 .u-content-padding {
-  padding: 2em 0.5em;
+  padding: 2em 3.5em;
 }
 
 .u-container {
-  padding: 0em 0.5em;
+  padding: 0em 1.5em;
 }
 
 /********************************/
@@ -122,9 +124,29 @@
     grid-column-gap: 1em;
     grid-template-columns: repeat(2, 1fr);
   }
+  .content-team {
+    width: 100%;
+  }
+  .proyect {
+    padding: 1em 3.5em;
+  }
+  .u-container {
+    padding: 0em 3.5em;
+  }
+  .content-proyect-item {
+    max-width: 100%;
+  }
+  .u-title-small {
+    text-align: left;
+    margin: initial;
+  }
 }
 
 @media screen and (min-width: 1024px) {
+  .u-title-small {
+    text-align: left;
+    margin: initial;
+  }
   .u-content-padding {
     padding: 8em 0.5em 1.5em;
   }
