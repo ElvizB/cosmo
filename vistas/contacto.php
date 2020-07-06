@@ -14,8 +14,7 @@ $titulo = 'Contacto';
             <div class="descriptions-form">
                 <p>
                     Nuestras oficinas están ubicadas en el distrito de Surquillo (Lima, Perú). Para coordinar reuniones,
-                    favor de contactarse con nosotros a través de nuestro correo electrónico o, alternativamente, a
-                    nuestro teléfono.
+                    favor de contactarse con nosotros a través de nuestro correo electrónico.
                 </p>
                 <p>info@somoscosmo.pe</p>
                 <p>Nuestros horarios de atención son:</p>

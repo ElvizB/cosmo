@@ -10,15 +10,14 @@ $titulo = 'Proyectos';
     <div class="u-wrapper">
         <h6 class="u-title-small">HACEMOS_</h6>
         <div class="u-subtitle">
-            <h1>Producción de contenidos,
-                Guiones y Storytelling
+            <h1>Contenidos, guiones, storytelling y animación.
             </h1>
         </div>
         <div class="u-descriptions">
             <p>
-                Comprado u obtenido. Campaña o presencia continua. Nuestro conocimiento de las redes sociales y su
-                conocimiento de su industria, sus condiciones y su grupo objetivo: juntos construimos su marca,
-                aumentamos el compromiso o impulsamos las ventas y la conversión en los canal.
+                El guion creativo se desarrolla en base a un storytelling creativo, en donde los contenidos son
+                presentados a través de casos o historias que transmiten ideas y emociones. Ideal para generar impacto y
+                recordación a tu público.
             </p>
         </div>
     </div>
@@ -41,7 +40,7 @@ $titulo = 'Proyectos';
                     </div>
                 </div>
                 <div class="content-proyect-description">
-                    <p>Pre-estudio y análisis</p>
+                    <p>Análisis de información</p>
                 </div>
             </div>
 
@@ -56,7 +55,7 @@ $titulo = 'Proyectos';
                     </div>
                 </div>
                 <div class="content-proyect-description">
-                    <p>Coordinación</p>
+                    <p>Desarrollo de guión</p>
                 </div>
             </div>
 
@@ -72,7 +71,7 @@ $titulo = 'Proyectos';
                     </div>
                 </div>
                 <div class="content-proyect-description">
-                    <p>Historias de usuarios y personas</p>
+                    <p>Storytelling</p>
                 </div>
             </div>
 
@@ -89,7 +88,7 @@ $titulo = 'Proyectos';
                     </div>
                 </div>
                 <div class="content-proyect-description">
-                    <p>Mapa vial</p>
+                    <p>Storyboard</p>
                 </div>
             </div>
 
@@ -107,7 +106,7 @@ $titulo = 'Proyectos';
                     </div>
                 </div>
                 <div class="content-proyect-description">
-                    <p>KPI</p>
+                    <p>Animación digital</p>
                 </div>
             </div>
 
@@ -124,7 +123,7 @@ $titulo = 'Proyectos';
                     </div>
                 </div>
                 <div class="content-proyect-description">
-                    <p>Medición / Optimización</p>
+                    <p>Composición post</p>
                 </div>
             </div>
 
@@ -142,9 +141,9 @@ $titulo = 'Proyectos';
         </div>
         <div class="u-descriptions">
             <p>
-                Comprado u obtenido. Campaña o presencia continua. Nuestro conocimiento de las redes sociales y su
-                conocimiento de su industria, sus condiciones y su grupo objetivo: juntos construimos su marca,
-                aumentamos el compromiso o impulsamos las ventas y la conversión en los canal.
+                Producimos vídeos que sirven para transmitir los conocimientos, una nueva forma de que los alumnos
+                puedan revisar clases grabadas o producidas. Realizamos los vídeos animados o con la exposición de un
+                actor profesional o experto en el tema.
             </p>
         </div>
     </div>
@@ -257,9 +256,9 @@ $titulo = 'Proyectos';
         </div>
         <div class="u-descriptions">
             <p>
-                Comprado u obtenido. Campaña o presencia continua. Nuestro conocimiento de las redes sociales y su
-                conocimiento de su industria, sus condiciones y su grupo objetivo: juntos construimos su marca,
-                aumentamos el compromiso o impulsamos las ventas y la conversión en los canal.
+                Nos enfocamos en el desarrollo de sitios web hechos a la medida, con un diseño único y creativo.
+                Complementa tu estrategia digital e interactúa de manera efectiva con tus clientes. Garantizamos el
+                crecimiento de tu marca en internet.
             </p>
         </div>
     </div>
@@ -378,13 +377,9 @@ $titulo = 'Proyectos';
         </div>
         <div class="u-descriptions">
             <p>
-                Contenido. Nunca ha sido tan importante. Texto, imagen, audio y video. Contenido que informa, divierte,
-                preocupa y activa. Contenido que atrae y convierte.
-            </p>
-            <p>
-                Comprado u obtenido. Campaña o presencia continua. Nuestro conocimiento de las redes sociales y su
-                conocimiento de su industria, sus condiciones y su grupo objetivo: juntos construimos su marca,
-                aumentamos el compromiso o impulsamos las ventas y la conversión en los canal.
+                Desarrollamos diversos tipos de productos digitales, presentando la información complementada con
+                imágenes e ilustraciones que refuercen el contenido. Motion graphics, animación 2D, adaptaciones
+                audiovisuales, y mucho más.
             </p>
         </div>
     </div>
@@ -406,7 +401,7 @@ $titulo = 'Proyectos';
                     </div>
                 </div>
                 <div class="content-proyect-description">
-                    <p>Mejora el posicionamiento</p>
+                    <p>Análisis de información</p>
                 </div>
             </div>
 
@@ -422,7 +417,7 @@ $titulo = 'Proyectos';
                     </div>
                 </div>
                 <div class="content-proyect-description">
-                    <p>Más conversiones</p>
+                    <p>Pauta o guionización</p>
                 </div>
             </div>
 
@@ -438,7 +433,7 @@ $titulo = 'Proyectos';
                     </div>
                 </div>
                 <div class="content-proyect-description">
-                    <p>Optimización</p>
+                    <p>Locución</p>
                 </div>
             </div>
 
@@ -455,7 +450,7 @@ $titulo = 'Proyectos';
                     </div>
                 </div>
                 <div class="content-proyect-description">
-                    <p>Entretienen</p>
+                    <p>Storyboard</p>
                 </div>
             </div>
 
@@ -471,7 +466,7 @@ $titulo = 'Proyectos';
                     </div>
                 </div>
                 <div class="content-proyect-description">
-                    <p>Fácil y sencillo</p>
+                    <p>Filmación</p>
                 </div>
             </div>
 
@@ -487,7 +482,7 @@ $titulo = 'Proyectos';
                     </div>
                 </div>
                 <div class="content-proyect-description">
-                    <p>Crea un vínculo de confianza</p>
+                    <p>Motion graphics</p>
                 </div>
             </div>
 
@@ -504,18 +499,10 @@ $titulo = 'Proyectos';
         </div>
         <div class="u-descriptions">
             <p>
-                Contenido. Nunca ha sido tan importante. Texto, imagen, audio y video. Contenido que informa, divierte,
-                preocupa y activa. Contenido que atrae y convierte.
+                Si tienes una empresa, producto o servicio, gran parte de la comunicación es establecer una imagen de
+                marca. Nosotros podemos ayudarte con el diseño de logotipo, manuales de marca, piezas gráficas, diseño
+                de empaques y mucho más.
             </p>
-            <p>
-                Comprado u obtenido. Campaña o presencia continua. Nuestro conocimiento de las redes sociales y su
-                conocimiento de su industria, sus condiciones y su grupo objetivo: juntos construimos su marca,
-                aumentamos el compromiso o impulsamos las ventas y la conversión en los canales sociales.
-            </p>
-            <p>Podemos asumir la responsabilidad de crear, empaquetar y publicar contenido en todos sus canales
-                digitales de acuerdo con la estrategia digital preestablecida y la actividad desarrollada y el plan de
-                contenido. Sitio web, Snapchat, Facebook, Twitter, Instagram, TikTok, YouTube, Pinterest, boletines,
-                SMS, Messenger ...</p>
         </div>
     </div>
 </section>
@@ -626,16 +613,15 @@ $titulo = 'Proyectos';
         <div class="u-wrapper content-digital">
             <div class="content-digital-min text-white">
                 <div class="digital-title">
-                    <p>¿Estás listo para <br>empezar tu negocio digital?</p>
+                    <p>Somos el equipo que necesitas</p>
                 </div>
                 <div class="digital-descriptions">
-                    <p>Entonces puedes dejar de mirar ahora. Póngase en contacto con Diego Campó, director de nuevos
-                        negocios de la agencia digital Cosmo en Lima - Perú.</p>
-                    <p><u>holadiego@cosmo.pe</u>
-                        <br>
-                        +51 949 403 400</p>
+                    <p>Nuestro equipo multidisciplinario te ofrece la posibilidad de completar tu estrategia de
+                        marketing o comunicaciones con otros canales. Comparte con nosotros tus necesidades y
+                        requerimientos.</p>
+                    <p><u>info@somoscosmo.pe</u></p>
                 </div>
-                <button class="btn-contact-proyect">¡Contáctame!</button>
+                <button class="btn-contact-proyect">¡CONTÁCTANOS!</button>
             </div>
 
         </div>

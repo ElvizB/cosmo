@@ -80,10 +80,9 @@ $titulo = 'Inicio';
             <div class="obj-content-description">
                 <div class="line-yellow"></div>
                 <p>
-                    Hoy, lanzamos nuevas agencias de medios suecas. Ahora con una versión de pago del Barómetro de
-                    la
-                    Oficina de Medios, donde hemos puesto mucho esfuerzo en desarrollar una herramienta realmente
-                    inteligente donde los suscriptores puedan comparar fácilmente las estadísticas entre ...
+                    En el mundo empresarial transmitir un mensaje es sumamente importante.<br>
+                    El enfoque en lo visual
+                    marcará el punto de partida para la percepción que podamos generar con nuestros clientes.
                 </p>
             </div>
             <div class="obj-items">
@@ -92,8 +91,9 @@ $titulo = 'Inicio';
             <div class="obj-content-description">
                 <div class="line-yellow"></div>
                 <p>
-                    Woo hoo !! Ahora es en vivo, nuevo sveafastigheter.se, y estamos realmente orgullosos 🙂. #
-                    agencia digital #digitalagency #sveafastigheter #wonderfour #lovedigital
+                    ¿Por qué no atreverse a innovar? Imagina las oportunidades que podrías generar potenciando tu marca,
+                    generando contenido visual más atractivo y contando una historia para impartir conocimientos. Echa
+                    un vistazo a nuestros servicios.
                 </p>
             </div>
         </div>
@@ -102,9 +102,9 @@ $titulo = 'Inicio';
             <div class="obj-content-description">
                 <div class="line-yellow"></div>
                 <p>
-                    Nuevo Sulky. Para cualquiera que ama el trote. Proyecto emocionante, desafiante y muy divertido
-                    donde realmente pudimos mostrar nuestro conocimiento en WordPress y administrar API. La primera
-                    parte del proyecto es en vivo. Ver más del caso...
+                    En Cosmo, nos especializamos en el diseño digital, animación 2D, ilustración, cursos virtuales y
+                    audiovisuales. Contamos con amplia experiencia en el desarrollo de contenido transmedia y decenas de
+                    proyectos terminados satisfactoriamente.
                 </p>
             </div>
             <div class=" obj-items">
@@ -122,9 +122,9 @@ $titulo = 'Inicio';
             <div class="obj-content-description">
                 <div class="line-yellow"></div>
                 <p>
-                    Nuevo Sulky. Para cualquiera que ama el trote. Proyecto emocionante, desafiante y muy divertido
-                    donde realmente pudimos mostrar nuestro conocimiento en WordPress y administrar API. La primera
-                    parte del proyecto es en vivo. Ver más del caso...
+                    En Cosmo, nos especializamos en el diseño digital, animación 2D, ilustración, cursos virtuales y
+                    audiovisuales. Contamos con amplia experiencia en el desarrollo de contenido transmedia y decenas de
+                    proyectos terminados satisfactoriamente.
                 </p>
             </div>
 
@@ -140,25 +140,21 @@ $titulo = 'Inicio';
             <div class="obj-content-description">
                 <div class="line-yellow"></div>
                 <p>
-                    Saludos a Yuriko. Ella es CTO y desarrolladora con nosotros en Wonderfour. Ella sabe casi todo
-                    sobre WordPress, paywalls, sistemas de publicidad y todo tipo de API. Entonces ahora lo sabes. -
-                    # agencia digital # agencia web #lovedig ...
+                    Nos adaptamos a ti. Seas una pequeña, mediana o gran empresa, tenemos experiencia analizando las
+                    necesidades de cada cliente. Las herramientas digitales que creamos son visualmente atractivas,
+                    pero, sobre todo, alineadas siempre a los objetivos que necesitas.
                 </p>
             </div>
             <div class="u-backyellow">
                 <div class="content-obj-title">
-                    <h1>Entonces
-                        alcanzamos tus
-                        objetivos digitales</h1>
+                    <h1>Seremos tus aliados para lograr resultados impactantes en tus proyectos.</h1>
                 </div>
             </div>
 
         </div>
         <div class="u-backyellow-movil">
             <div class="content-obj-title">
-                <h1>Entonces
-                    alcanzamos tus
-                    objetivos digitales</h1>
+                <h1>Seremos tus aliados para lograr resultados impactantes en tus proyectos.</h1>
             </div>
         </div>
     </div>
@@ -201,17 +197,16 @@ $titulo = 'Inicio';
         <div class="u-wrapper content-digital">
             <div class="content-digital-min">
                 <div class="digital-title">
-                    <p>¿Estás buscando una agencia digital?
-                        con consejo técnico?</p>
+                    <p>Somos el equipo que necesitas</p>
                 </div>
                 <div class="digital-descriptions">
-                    <p>Entonces puedes dejar de mirar ahora. Póngase en contacto con Diego Campó, director de nuevos
-                        negocios de la agencia digital Cosmo en Lima - Perú.</p>
-                    <p><u>holadiego@cosmo.pe</u>
-                        <br>
-                        +51 949 403 400</p>
+                    <p>Nuestro equipo multidisciplinario te ofrece la posibilidad de completar tu estrategia de
+                        marketing o comunicaciones con otros canales. Comparte con nosotros tus necesidades y
+                        requerimientos. </p>
+                    <p><u>info@somoscosmo.pe</u>
+                    </p>
                 </div>
-                <button class="btn-contact">¡Contáctame!</button>
+                <button class="btn-contact">¡CONTÁCTANOS!</button>
             </div>
 
         </div>

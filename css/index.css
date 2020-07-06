@@ -286,6 +286,7 @@ body::-webkit-scrollbar-thumb {
 .content-obj-title h1 {
   font-family: "Muller Regular";
   font-size: 2em;
+  text-align: center;
 }
 .obj-items img {
   width: 100%;
@@ -377,7 +378,7 @@ body::-webkit-scrollbar-thumb {
     padding: 5em 0em;
   }
   .content-obj-title h1 {
-    font-size: 3em;
+    font-size: 2em;
   }
   .content-service .list-service .item {
     text-align: center;
@@ -406,7 +407,7 @@ body::-webkit-scrollbar-thumb {
     text-align: center;
   }
   .digital-title p {
-    font-size: 49px;
+    font-size: 42px;
   }
   .digital-descriptions {
     font-size: 16px;
@@ -453,7 +454,7 @@ body::-webkit-scrollbar-thumb {
     grid-template-columns: repeat(3, 1fr);
   }
   .partner {
-    padding: 15em 0.5em 17em;
+    padding: 15em 0.5em 15em;
   }
   .img-partner {
     text-align: center;
@@ -497,7 +498,8 @@ body::-webkit-scrollbar-thumb {
     padding: 0em 0em;
   }
   .content-obj-title h1 {
-    font-size: 45px;
+    font-size: 39px;
+    text-align: left;
   }
   .item2-movil {
     display: none;
@@ -529,7 +531,7 @@ body::-webkit-scrollbar-thumb {
     padding: 0em 0em;
   }
   .content-obj-title h1 {
-    font-size: 60px;
+    font-size: 57px;
   }
 }
 
@@ -539,7 +541,7 @@ body::-webkit-scrollbar-thumb {
     padding: 38px 38px 20px;
   }
   .content-obj-title h1 {
-    font-size: 81px;
+    font-size: 68px;
     padding: 0em 0em;
   }
   .content-obj-title {

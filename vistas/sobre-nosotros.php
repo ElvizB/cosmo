@@ -23,10 +23,9 @@ $titulo = 'Sobre Nosotros';
                 organizacional de nuestros clientes.
             </p>
             <p>
-                Comprado u obtenido. Campaña o presencia continua. Nuestro conocimiento de las redes sociales y su
-                conocimiento de su industria, sus condiciones y su grupo objetivo: juntos construimos su marca,
-                aumentamos
-                el compromiso o impulsamos las ventas y la conversión en los canal.
+                Nuestro objetivo es ser un aliado en la producción de contenidos digitales que brinden soluciones de
+                comunicación efectivas e innovadoras
+
             </p>
 
         </div>
@@ -37,27 +36,30 @@ $titulo = 'Sobre Nosotros';
     <div class="u-wrapper">
         <div class="content-about-descriptions">
             <div class="about-items">
-                <p>CREATIVIDAD</p>
-                <img class="img-fluid" src="<?php echo RUTA_IMG?>about/creatividad.png" alt="creatividad"
-                    draggable="false" />
-            </div>
-            <div class="about-items">
                 <p>VISIÓN</p>
                 <img class="img-fluid" src="<?php echo RUTA_IMG?>about/vision.png" alt="vision" draggable="false" />
-            </div>
-            <div class="about-items-pro">
-                <img class="" src="<?php echo RUTA_IMG?>about/pro.png" alt="pro" draggable="false" />
-            </div>
-            <div class="about-items">
-                <p>EFICIENCIA</p>
-                <img class="img-fluid" src="<?php echo RUTA_IMG?>about/eficiencia.png" alt="eficiencia"
-                    draggable="false" />
             </div>
             <div class="about-items">
                 <p>ESTRATEGIA</p>
                 <img class="img-fluid" src="<?php echo RUTA_IMG?>about/estrategia.png" alt="estrategia"
                     draggable="false" />
             </div>
+
+
+            <div class="about-items-pro">
+                <img class="" src="<?php echo RUTA_IMG?>about/pro.png" alt="pro" draggable="false" />
+            </div>
+            <div class="about-items">
+                <p>CREATIVIDAD</p>
+                <img class="img-fluid" src="<?php echo RUTA_IMG?>about/creatividad.png" alt="creatividad"
+                    draggable="false" />
+            </div>
+            <div class="about-items">
+                <p>EFICIENCIA</p>
+                <img class="img-fluid" src="<?php echo RUTA_IMG?>about/eficiencia.png" alt="eficiencia"
+                    draggable="false" />
+            </div>
+
         </div>
     </div>
 </section>
@@ -104,8 +106,8 @@ $titulo = 'Sobre Nosotros';
                 </div>
                 <div class="content-proyect-description">
                     <div class="wrapper-description">
-                        <p class="proyect-description-name">Diego Campó</p>
-                        <p class="proyect-description-cargo">Dirección</p>
+                        <p class="proyect-description-name">Paul Saucedo</p>
+                        <p class="proyect-description-cargo">Marketing</p>
                     </div>
                 </div>
             </div>
@@ -126,8 +128,8 @@ $titulo = 'Sobre Nosotros';
                 </div>
                 <div class="content-proyect-description">
                     <div class="wrapper-description">
-                        <p class="proyect-description-name">Diego Campó</p>
-                        <p class="proyect-description-cargo">Dirección</p>
+                        <p class="proyect-description-name">Miguel Chahuara</p>
+                        <p class="proyect-description-cargo">Diseño</p>
                     </div>
                 </div>
             </div>
@@ -147,8 +149,8 @@ $titulo = 'Sobre Nosotros';
                 </div>
                 <div class="content-proyect-description">
                     <div class="wrapper-description">
-                        <p class="proyect-description-name">Diego Campó</p>
-                        <p class="proyect-description-cargo">Dirección</p>
+                        <p class="proyect-description-name">Diego Díaz</p>
+                        <p class="proyect-description-cargo">Audiovisuales</p>
                     </div>
                 </div>
             </div>
@@ -169,8 +171,8 @@ $titulo = 'Sobre Nosotros';
                 </div>
                 <div class="content-proyect-description">
                     <div class="wrapper-description">
-                        <p class="proyect-description-name">Diego Campó</p>
-                        <p class="proyect-description-cargo">Dirección</p>
+                        <p class="proyect-description-name">Elvis Barbarón</p>
+                        <p class="proyect-description-cargo">Desarrollo</p>
                     </div>
                 </div>
             </div>
