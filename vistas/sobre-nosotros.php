@@ -68,7 +68,7 @@ $titulo = 'Sobre Nosotros';
     <div class="u-wrapper">
         <h6 class="team-title mb-5">TEAM_</h6>
 
-        <div class="proyect-grid">
+        <div class="about-grid">
             <div>
                 <div class="content-about-item content-team">
                     <div class="content-team-img ">

@@ -21,8 +21,8 @@ if($partes_ruta[0] == 'cosmosomos.herokuapp.com'){
       case 'sobre-nosotros':
         $ruta_elegida = 'vistas/sobre-nosotros.php';
         break;   
-      case 'proyectos':
-        $ruta_elegida = 'vistas/proyectos.php';
+      case 'servicios':
+        $ruta_elegida = 'vistas/servicios.php';
         break;  
         case 'contacto':
           $ruta_elegida = 'vistas/contacto.php';

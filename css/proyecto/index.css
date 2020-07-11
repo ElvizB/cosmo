@@ -2,7 +2,7 @@
 
 .u-wrapper {
   width: 100%;
-  max-width: 1024px;
+  max-width: 1100px;
   margin: auto;
 }
 .u-subtitle h1 {
@@ -48,11 +48,13 @@
   justify-content: center;
   align-items: center;
 }
+
 .content-proyect-item {
   max-width: 324px;
   margin: auto;
   height: 324px;
   background: #e6e6e6;
+  margin-bottom: 1em;
 }
 .content-proyect-description {
   max-width: 324px;
@@ -63,47 +65,51 @@
 }
 
 /*********************/
-.content-team {
+.proyect-item-s {
+  height: 100%;
+  display: grid;
+  align-content: end;
+  padding: 0px 17px 20px;
+}
+.content-proyect-item-s {
+  max-width: 242px;
+  margin: auto;
+  height: 322px;
+  background: black;
+  margin-bottom: 1em;
+}
+.content-team-s {
   position: relative;
   overflow: hidden;
-  width: 326px;
+  width: 241px;
 }
 
-.content-team .content-team-img:hover .rectangulo {
+.content-team-s:hover .content-team-title-s {
   opacity: 1;
   visibility: visible;
 }
 
-.rectangulo {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgb(248, 195, 50, 0.8);
-  opacity: 0;
-  visibility: hidden;
-  -webkit-transition: opacity 0.2s ease 0s;
-  transition: opacity 0.2s ease 0s;
-}
-.content-team:hover .content-team-title {
-  top: 18%;
-  opacity: 1;
-  visibility: visible;
-}
-
-.content-team .content-team-title {
+.content-team-s .content-team-title-s {
   position: absolute;
   left: 0%;
-  top: -50%;
   color: #fff;
   width: 100%;
   opacity: 0;
   visibility: hidden;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  padding: 0em 2.6em;
 }
+.title-item-service {
+  font-family: "Muller Regular";
+  font-size: 20px;
+  color: white;
+  margin: 0;
+}
+.img-item-service {
+  padding: 0px 0px 20px;
+}
+
+/*****************************************/
 
 .container-digital-img {
   background: url(../../images/proyecto/banner.png) no-repeat top;
@@ -128,7 +134,7 @@
     width: 100%;
   }
   .proyect {
-    padding: 1em 3.5em;
+    padding: 1em 3.5em 3em;
   }
   .u-container {
     padding: 0em 3.5em;
@@ -156,7 +162,7 @@
   .proyect-grid {
     display: grid;
     grid-column-gap: 1em;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
   }
   .container-digital-img {
     height: 73vh;

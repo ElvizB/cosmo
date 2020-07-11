@@ -159,14 +159,14 @@ body::-webkit-scrollbar-thumb {
   background: var(--darkyellow);
   text-align: center;
   padding-left: 0.2em;
-  font-size: 12px;
+  font-size: 18px;
   font-family: "Muller Bold";
   margin: auto;
   max-width: 100px;
 }
 
 .proceso-descriptions {
-  padding-left: 1em;
+  padding-left: 0em;
 }
 .proceso-descriptions h1 {
   color: var(--darkyellow);
@@ -176,8 +176,10 @@ body::-webkit-scrollbar-thumb {
 }
 .proceso-descriptions li {
   list-style: none;
-  font-size: 12px;
+  font-size: 18px;
   font-family: "Muller Regular";
+  padding-bottom: 10px;
+  line-height: 20px;
 }
 
 /***END-PROCESOS****/

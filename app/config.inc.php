@@ -6,7 +6,7 @@
 
 define("SERVIDOR", "https://cosmosomos.herokuapp.com/");
 define("RUTA_NOSOTROS", SERVIDOR."sobre-nosotros");
-define("RUTA_PROYECTOS", SERVIDOR."proyectos");
+define("RUTA_SERVICIOS", SERVIDOR."servicios");
 define("RUTA_CONTACTO", SERVIDOR."contacto");
 //define("RUTA_CATEGORIA", SERVIDOR."/categoria-2007");
 //define("RUTA_CONTACTO", SERVIDOR."/Contacto");

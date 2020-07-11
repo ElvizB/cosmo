@@ -6,7 +6,7 @@
             </a>
             <ul class="nav-link-principal">
                 <li><a href="<?php echo RUTA_NOSOTROS ?>">SOBRE NOSOTROS</a></li>
-                <li><a href="<?php echo RUTA_PROYECTOS ?>">PROYECTOS</a></li>
+                <li><a href="<?php echo RUTA_SERVICIOS ?>">SERVICIOS</a></li>
                 <li><a href="<?php echo RUTA_CONTACTO ?>">CONTACTO</a></li>
             </ul>
         </div>

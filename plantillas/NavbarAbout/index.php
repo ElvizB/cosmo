@@ -23,7 +23,7 @@
                         </li>
 
                         <li class="sombra nav-item sobre">
-                            <a class="nav-link text-dark " href="<?php echo RUTA_PROYECTOS ?>">PROYECTOS</a>
+                            <a class="nav-link text-dark " href="<?php echo RUTA_SERVICIOS ?>">SERVICIOS</a>
                         </li>
                         <li class="sombra nav-item sobre">
                             <a class="nav-link text-dark " href="<?php echo RUTA_CONTACTO ?>">CONTACTO</a>
