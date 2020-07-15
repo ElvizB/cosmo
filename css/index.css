@@ -81,6 +81,9 @@ body::-webkit-scrollbar-thumb {
 }
 
 /****SERVICES*******/
+.owl-dots {
+  display: none;
+}
 .service {
   padding: 5em 0.5em;
 }
