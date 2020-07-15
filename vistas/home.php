@@ -110,7 +110,11 @@ $titulo = 'Inicio';
             <div class=" obj-items">
                 <img src="<?php echo RUTA_IMG?>objetivos/obj-3.png" class="" draggable="false" />
             </div>
-            <div class="u-backyellow"></div>
+            <div class="u-backyellow">
+                <div class="objetivo-plant">
+                    <img src="<?php echo RUTA_IMG?>objetivos/plant.png" class="img-fluid" draggable="false" />
+                </div>
+            </div>
             <div class="u-backyellow"></div>
 
         </div>
@@ -147,6 +151,7 @@ $titulo = 'Inicio';
             </div>
             <div class="u-backyellow">
                 <div class="content-obj-title">
+
                     <h1>Seremos tus aliados para lograr resultados impactantes en tus proyectos.</h1>
                 </div>
             </div>
@@ -164,28 +169,48 @@ $titulo = 'Inicio';
     <div class="u-wrapper ">
         <p class="partner-title">NUESTROS CLIENTES_</p>
         <p class="partner-subtitle">Confían en nuestras soluciones</p>
-        <div class="partner-grid">
-            <div class="img-partner">
-                <img class="img-fluid" src="<?php echo RUTA_IMG?>partners/rimac.png" alt="rimac" draggable="false" />
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <div class="img-partner">
+                    <img class="img-fluid" src=" <?php echo RUTA_IMG?>partners/entel.png" alt="entel"
+                        draggable="false" />
+                </div>
             </div>
-            <div class="img-partner">
-                <img class="img-fluid" src=" <?php echo RUTA_IMG?>partners/entel.png" alt="entel" draggable="false" />
+            <div class="item">
+                <div class="img-partner">
+                    <img class="img-fluid" src="<?php echo RUTA_IMG?>partners/sacosi.png" alt="sacosi"
+                        draggable="false" />
+                </div>
             </div>
-            <div class="img-partner">
-                <img class="img-fluid" src="<?php echo RUTA_IMG?>partners/sacosi.png" alt="sacosi" draggable="false" />
+            <div class="item">
+                <div class="img-partner">
+                    <img class="img-fluid" src="<?php echo RUTA_IMG?>partners/andean.png" alt="andean"
+                        draggable="false" />
+                </div>
             </div>
-
-            <div class="img-partner">
-                <img class="img-fluid" src="<?php echo RUTA_IMG?>partners/andean.png" alt="andean" draggable="false" />
+            <div class="item">
+                <div class="img-partner">
+                    <img class="img-fluid" src="<?php echo RUTA_IMG?>partners/galatel.png" alt="galatel"
+                        draggable="false" />
+                </div>
             </div>
-
-            <div class="img-partner">
-                <img class="img-fluid" src="<?php echo RUTA_IMG?>partners/galatel.png" alt="galatel"
-                    draggable="false" />
+            <div class="item">
+                <div class="img-partner">
+                    <img class="img-fluid" src="<?php echo RUTA_IMG?>partners/whitepoint.png" alt="whitepoint"
+                        draggable="false" />
+                </div>
             </div>
-            <div class="img-partner">
-                <img class="img-fluid" src="<?php echo RUTA_IMG?>partners/whitepoint.png" alt="whitepoint"
-                    draggable="false" />
+            <div class="item">
+                <div class="img-partner">
+                    <img class="img-fluid" src="<?php echo RUTA_IMG?>partners/fong.png" alt="whitepoint"
+                        draggable="false" />
+                </div>
+            </div>
+            <div class="item">
+                <div class="img-partner">
+                    <img class="img-fluid" src="<?php echo RUTA_IMG?>partners/sanandres.png" alt="whitepoint"
+                        draggable="false" />
+                </div>
             </div>
         </div>
     </div>

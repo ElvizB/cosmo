@@ -18,6 +18,8 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
     <!-- Material Design Bootstrap -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.8/css/mdb.min.css" rel="stylesheet">
+    <link href="<?php echo RUTA_CSS?>owl/owl.carousel.min.css" rel="stylesheet">
+    <link href="<?php echo RUTA_CSS?>owl/owl.theme.default.min.css" rel="stylesheet">
 
     <link href="<?php echo RUTA_CSS?>preload/index.css" rel="stylesheet">
     <link href="<?php echo RUTA_CSS?>navbar/index.css" rel="stylesheet">
