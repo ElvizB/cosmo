@@ -75,7 +75,7 @@
   max-width: 242px;
   margin: auto;
   height: 322px;
-  background: black;
+  background: linear-gradient(#0d1935, #0f2751);
   margin-bottom: 1em;
 }
 .content-team-s {
@@ -87,13 +87,13 @@
 .content-team-s:hover .content-team-title-s {
   opacity: 1;
   visibility: visible;
-  transform: rotate(360deg);
-  -webkit-transform: rotate(360deg);
+  top: 0;
 }
 
 .content-team-s .content-team-title-s {
   position: absolute;
   left: 0%;
+  top: -100%;
   color: #fff;
   width: 100%;
   opacity: 0;

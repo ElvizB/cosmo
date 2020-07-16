@@ -27,6 +27,7 @@ $titulo = 'Proyectos';
 <section class="proyect">
     <div class="u-wrapper">
         <div class="proyect-grid">
+
             <div>
                 <div class="content-proyect-item-s content-team-s">
                     <div class="content-team-img-s proyect-item-s">

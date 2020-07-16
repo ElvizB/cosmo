@@ -24,22 +24,31 @@ $titulo = 'Contacto';
             <div>
                 <div class="form-back">
                     <form action="#">
-                        <div class="form-input-design">
-                            <label for="">Tu nombre (obligatorio)</label>
-                            <input type="text">
+
+                        <div class="md-form">
+                            <input type="text" id="form-nameempresa" class="form-control">
+                            <label for="form-nameempresa">Tu nombre (obligatorio)</label>
                         </div>
-                        <div class="form-input-design">
-                            <label for="">Tu correo electrónico (obligatorio)</label>
-                            <input type="text">
+
+                        <div class="md-form">
+
+                            <input type="text" id="form-page" class="form-control">
+                            <label for="form-page">Tu correo electrónico (obligatorio)</label>
                         </div>
-                        <div class="form-input-design">
-                            <label for="">Asunto</label>
-                            <input type="text">
+
+
+                        <div class="md-form">
+
+                            <input type="text" id="form-email" class="form-control">
+                            <label for="form-email">Asunto</label>
                         </div>
-                        <div class="form-input-design">
-                            <label for="">Tu mensaje</label>
-                            <textarea name="" id="" cols="30" rows="3"></textarea>
+
+                        <div class="md-form">
+
+                            <textarea id="form-text" class="form-control md-textarea" rows="3"></textarea>
+                            <label for="form-text">Tu mensaje</label>
                         </div>
+
                         <button class="btn-enviar">
                             Enviar
                         </button>
@@ -53,31 +62,44 @@ $titulo = 'Contacto';
 
 <section class="content-partner-contact">
     <div class="u-wrapper ">
-        <div class="contact-img">
-            <div class="img-partner">
-                <img class="img-fluid" src="<?php echo RUTA_IMG?>contacto/c-rimac.png" alt="rimac" draggable="false" />
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <div class="img-partner">
+                    <img class="img-fluid" src="<?php echo RUTA_IMG?>contacto/c-rimac.png" alt="rimac"
+                        draggable="false" />
+                </div>
             </div>
-            <div class="img-partner">
-                <img class="img-fluid" src=" <?php echo RUTA_IMG?>contacto/c-entel.png" alt="entel" draggable="false" />
+            <div class="item">
+                <div class="img-partner">
+                    <img class="img-fluid" src=" <?php echo RUTA_IMG?>contacto/c-entel.png" alt="entel"
+                        draggable="false" />
+                </div>
             </div>
-            <div class="img-partner">
-                <img class="img-fluid" src="<?php echo RUTA_IMG?>contacto/c-sacosi.png" alt="sacosi"
-                    draggable="false" />
+            <div class="item">
+                <div class="img-partner">
+                    <img class="img-fluid" src="<?php echo RUTA_IMG?>contacto/c-sacosi.png" alt="sacosi"
+                        draggable="false" />
+                </div>
+            </div>
+            <div class="item">
+                <div class="img-partner">
+                    <img class="img-fluid" src="<?php echo RUTA_IMG?>contacto/c-andean.png" alt="andean"
+                        draggable="false" />
+                </div>
+            </div>
+            <div class="item">
+                <div class="img-partner">
+                    <img class="img-fluid" src="<?php echo RUTA_IMG?>contacto/c-galatel.png" alt="galatel"
+                        draggable="false" />
+                </div>
+            </div>
+            <div class="item">
+                <div class="img-partner">
+                    <img class="img-fluid" src="<?php echo RUTA_IMG?>contacto/c-white.png" alt="whitepoint"
+                        draggable="false" />
+                </div>
             </div>
 
-            <div class="img-partner">
-                <img class="img-fluid" src="<?php echo RUTA_IMG?>contacto/c-andean.png" alt="andean"
-                    draggable="false" />
-            </div>
-
-            <div class="img-partner">
-                <img class="img-fluid" src="<?php echo RUTA_IMG?>contacto/c-galatel.png" alt="galatel"
-                    draggable="false" />
-            </div>
-            <div class="img-partner">
-                <img class="img-fluid" src="<?php echo RUTA_IMG?>contacto/c-white.png" alt="whitepoint"
-                    draggable="false" />
-            </div>
         </div>
     </div>
 
