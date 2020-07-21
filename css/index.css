@@ -75,11 +75,18 @@ body::-webkit-scrollbar-thumb {
   border: none;
   width: 175px;
 }
-
-.video-back {
+.video-back-s {
   width: auto;
 }
 
+.video-back {
+  width: 100%;
+}
+.obj-items {
+  text-align: center;
+  display: grid;
+  align-items: end;
+}
 /****SERVICES*******/
 .owl-dots {
   display: none;
@@ -285,7 +292,6 @@ body::-webkit-scrollbar-thumb {
   display: grid;
   grid-template-rows: 22% auto;
   font-family: "Muller Regular";
-  align-items: end;
   padding: 20px 20px 20px;
   background: #f2f2f2;
 }
@@ -341,6 +347,11 @@ body::-webkit-scrollbar-thumb {
 }
 
 @media screen and (min-width: 768px) {
+  .obj-content-description {
+    font-size: 25px;
+    align-content: center;
+    align-items: center;
+  }
   .proceso-title p {
     max-width: 148px;
     text-align: left;
@@ -406,6 +417,9 @@ body::-webkit-scrollbar-thumb {
 }
 
 @media screen and (min-width: 1070px) {
+  .video-back-s {
+    width: 100%;
+  }
   .objetivo-plant {
     display: block;
     height: 100%;
@@ -500,6 +514,8 @@ body::-webkit-scrollbar-thumb {
   }
   .obj-content-description {
     font-size: 13px;
+    align-items: end;
+    align-content: inherit;
   }
   .item1 {
     display: grid;
@@ -530,9 +546,7 @@ body::-webkit-scrollbar-thumb {
   .u-backyellow-movil {
     display: none;
   }
-  .video-back {
-    width: 100%;
-  }
+
   .video-descriptions {
     padding: 0em 0em 0em 0em;
   }

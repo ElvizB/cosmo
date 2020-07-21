@@ -31,7 +31,7 @@
 }
 
 .u-content-padding {
-  padding: 2em 3.5em;
+  padding: 6em 1.5em 0;
 }
 
 .u-container {
@@ -126,6 +126,14 @@
   font-family: "Muller Regular";
 }
 
+@media screen and (min-width: 520px) {
+  .proyect-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1em;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .proyect-grid {
     display: grid;
@@ -156,7 +164,7 @@
     margin: initial;
   }
   .u-content-padding {
-    padding: 8em 0.5em 1.5em;
+    padding: 8em 3.5em 1.5em;
   }
   .u-subtitle h1 {
     font-size: 81px;

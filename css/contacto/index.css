@@ -41,7 +41,7 @@ textarea {
   resize: none;
 }
 .content-form {
-  padding: 0px 0px 0px;
+  padding: 30px 0px;
 }
 
 .content-partner-contact {
@@ -62,6 +62,10 @@ textarea {
     grid-template-columns: repeat(2, 1fr);
     column-gap: 82px;
     padding: 51px 0px 0px;
+  }
+  .content-partner-contact {
+    margin: 75px 0px 0px 0px;
+    height: 164px;
   }
 }
 

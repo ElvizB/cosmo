@@ -75,7 +75,9 @@ $titulo = 'Inicio';
     <div class="obj-grid">
         <div class="item1">
             <div class=" obj-items">
-                <img src="<?php echo RUTA_IMG?>objetivos/obj-1.png" class="" draggable="false" />
+                <video class="video-back" autoplay loop muted>
+                    <source src="<?php echo RUTA_VIDEO?>1.mp4" type="video/mp4">
+                </video>
             </div>
             <div class="obj-content-description">
                 <div class="line-yellow"></div>
@@ -86,7 +88,9 @@ $titulo = 'Inicio';
                 </p>
             </div>
             <div class="obj-items">
-                <img src="<?php echo RUTA_IMG?>objetivos/obj-2.png" class="" draggable="false" />
+                <video class="video-back" autoplay loop muted>
+                    <source src="<?php echo RUTA_VIDEO?>2.mp4" type="video/mp4">
+                </video>
             </div>
             <div class="obj-content-description">
                 <div class="line-yellow"></div>
@@ -108,7 +112,9 @@ $titulo = 'Inicio';
                 </p>
             </div>
             <div class=" obj-items">
-                <img src="<?php echo RUTA_IMG?>objetivos/obj-3.png" class="" draggable="false" />
+                <video class="video-back" autoplay loop muted>
+                    <source src="<?php echo RUTA_VIDEO?>3f.mp4" type="video/mp4">
+                </video>
             </div>
             <div class="u-backyellow">
                 <div class="objetivo-plant">
@@ -121,7 +127,9 @@ $titulo = 'Inicio';
 
         <div class="item2-movil">
             <div class=" obj-items">
-                <img src="<?php echo RUTA_IMG?>objetivos/obj-3.png" class="" draggable="false" />
+                <video class="video-back" autoplay loop muted>
+                    <source src="<?php echo RUTA_VIDEO?>3f.mp4" type="video/mp4">
+                </video>
             </div>
             <div class="obj-content-description">
                 <div class="line-yellow"></div>
@@ -139,7 +147,9 @@ $titulo = 'Inicio';
 
         <div class="item3">
             <div class=" obj-items">
-                <img src="<?php echo RUTA_IMG?>objetivos/obj-4.png" class="" draggable="false" />
+                <video class="video-back" autoplay loop muted>
+                    <source src="<?php echo RUTA_VIDEO?>4.mp4" type="video/mp4">
+                </video>
             </div>
             <div class="obj-content-description">
                 <div class="line-yellow"></div>

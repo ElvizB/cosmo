@@ -22,18 +22,53 @@
 <script type="text/javascript" src="<?php echo RUTA_JS?>app.js"></script>
 <script type="text/javascript">
 var lastScrollTop = 0;
+var scroollNone = document.documentElement.scrollTop;
 navbar = document.getElementById("navbar");
 window.addEventListener("scroll", function() {
-    var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    var scrollTop = window.pageYOffset || scroollNone;
     if (scrollTop > lastScrollTop) {
         navbar.style.top = "-100px";
         navbar.style.background = "transparent";
     } else {
         navbar.style.top = "0";
-        navbar.style.background = "#1B2036";
     }
     lastScrollTop = scrollTop;
 })
+
+$(document).ready(function() {
+
+    $(window).scroll(function() {
+
+        if ($(window).scrollTop() > 300) {
+            $('nav').addClass('navBlock');
+        } else {
+            $('nav').removeClass('navBlock');
+        }
+    });
+
+});
+
+$(document).ready(function() {
+
+    $(window).scroll(function() {
+
+        if ($(window).scrollTop() > 300) {
+            $('.prueba').addClass('navBlock_secodnary');
+        } else {
+            $('.prueba').removeClass('navBlock_secodnary');
+        }
+    });
+
+});
+
+function menuToggle() {
+    var nav = document.getElementById('menu-overlay');
+    nav.classList.toggle('active');
+    var nav = document.getElementById('toggleIcon');
+    nav.classList.toggle('active');
+}
+
+
 new WOW().init();
 </script>
 </body>

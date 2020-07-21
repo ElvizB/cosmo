@@ -2,7 +2,7 @@
 <div class="">
     <div class="carousel-inner height-video">
         <div class="view">
-            <video class="video-back" autoplay loop muted>
+            <video class="video-back-s" autoplay loop muted>
                 <source src="<?php echo RUTA_VIDEO?>video2.mp4" type="video/mp4">
             </video>
         </div>

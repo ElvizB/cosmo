@@ -263,7 +263,8 @@ $titulo = 'Proyectos';
                             <img src="<?php echo RUTA_IMG?>servicios/cursos/c2.png" class="img-item-service" alt=""
                                 draggable="false">
                         </div>
-                        <p class="title-item-service"> Producidos a la medida según el mensaje y necesidad del cliente
+                        <p class="title-item-service"> Optimizamos contenidos e información para generar un mensaje
+                            más claro
                         </p>
 
                     </div>
@@ -281,7 +282,7 @@ $titulo = 'Proyectos';
                             <img src="<?php echo RUTA_IMG?>servicios/cursos/c3.png" class="img-item-service" alt=""
                                 draggable="false">
                         </div>
-                        <p class="title-item-service"> Producidos a la medida según el mensaje y necesidad del cliente
+                        <p class="title-item-service"> Desarrollamos animaciones atractivas complementadas con texto
                         </p>
 
                     </div>
@@ -300,7 +301,7 @@ $titulo = 'Proyectos';
                             <img src="<?php echo RUTA_IMG?>servicios/cursos/c4.png" class="img-item-service" alt=""
                                 draggable="false">
                         </div>
-                        <p class="title-item-service"> Producidos a la medida según el mensaje y necesidad del cliente
+                        <p class="title-item-service"> Agilizamos la comunicación interna de cualquier organización
                         </p>
 
                     </div>
@@ -609,7 +610,7 @@ $titulo = 'Proyectos';
                             <img src="<?php echo RUTA_IMG?>servicios/branding/b4.png" alt="" draggable="false">
                         </div>
                         <div>
-                            <img src="<?php echo RUTA_IMG?>servicios/cursos/b4.png" class="img-item-service" alt=""
+                            <img src="<?php echo RUTA_IMG?>servicios/cursos/c4.png" class="img-item-service" alt=""
                                 draggable="false">
                         </div>
                         <p class="title-item-service">Implementamos diseños profesionales, coherentes y diferenciados
@@ -712,7 +713,7 @@ $titulo = 'Proyectos';
                             <img src="<?php echo RUTA_IMG?>servicios/web/4.png" alt="" draggable="false">
                         </div>
                         <div>
-                            <img src="<?php echo RUTA_IMG?>servicios/cursos/b4.png" class="img-item-service" alt=""
+                            <img src="<?php echo RUTA_IMG?>servicios/cursos/c4.png" class="img-item-service" alt=""
                                 draggable="false">
                         </div>
                         <p class="title-item-service">Generamos elementos interactivos que capten atención
@@ -816,7 +817,7 @@ $titulo = 'Proyectos';
                             <img src="<?php echo RUTA_IMG?>servicios/media/4.png" alt="" draggable="false">
                         </div>
                         <div>
-                            <img src="<?php echo RUTA_IMG?>servicios/cursos/b4.png" class="img-item-service" alt=""
+                            <img src="<?php echo RUTA_IMG?>servicios/cursos/c4.png" class="img-item-service" alt=""
                                 draggable="false">
                         </div>
                         <p class="title-item-service">Generamos reportes claros cada mes para el cliente
